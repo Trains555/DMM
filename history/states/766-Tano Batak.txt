@@ -1,0 +1,35 @@
+
+state={
+	id=766
+	name="STATE_766"
+
+	manpower=3150000
+	state_category=town
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			13218 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			13214 = {
+				bunker = 3
+
+			}
+			13218 = {
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		8360 10522 13216 13217 13218 
+	}
+
+}

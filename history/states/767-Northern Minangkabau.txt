@@ -1,0 +1,23 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	manpower=800000
+	state_category=rural
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4446 13215 13214
+	}
+
+}

@@ -1,0 +1,31 @@
+state={
+	id=764
+	name="STATE_764"
+	manpower = 1180000
+	
+	state_category = town
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			13211 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			arms_factory = 1
+
+			13211 = {
+				naval_base = 4
+				coastal_bunker = 3
+			}
+		}
+	}
+
+	provinces={
+		13210 13211
+	}
+}
