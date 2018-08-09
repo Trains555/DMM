@@ -604,3 +604,7 @@ HAW = {
 color = rgb { 185 185 0 }
 color_ui = rgb { 185 185 0 }
 }
+RNC = {
+color = rgb { 123 188 253 }
+color_ui = rgb { 123 188 253 }
+}

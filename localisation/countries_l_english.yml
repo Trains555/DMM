@@ -1595,3 +1595,16 @@
  HAW_neutrality_DEF:0 "Free Territory of Hawaii"
  HAW_neutrality_ADJ:0 "Hawaiian"
 
+ RNC_democratic:0 "Republic of China"
+ RNC_democratic_DEF:0 "Republic of China"
+ RNC_democratic_ADJ:0 "Reorganized Chinese"
+ RNC_communism:0 "People's Republic of China"
+ RNC_communism_DEF:0 "People's Republic of China"
+ RNC_communism_ADJ:0 "Reorganized Chinese"
+ RNC_fascism:0 "Reorganized Nationalist China"
+ RNC_fascism_DEF:0 "Reorganized Nationalist China"
+ RNC_fascism_ADJ:0 "Reorganized Chinese"
+ RNC_neutrality:0 "Reorganized Nationalist China"
+ RNC_neutrality_DEF:0 "Reorganized Nationalist China"
+ RNC_neutrality_ADJ:0 "Reorganized Chinese"
+
