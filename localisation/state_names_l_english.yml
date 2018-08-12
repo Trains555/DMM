@@ -15,7 +15,11 @@
  STATE_14:0 "Brittany"
  STATE_15:0 "Normandy"
  STATE_16:0 "Ile de France"
+<<<<<<< HEAD
  STATE_17:0 "Lorraine"
+=======
+ STATE_17:1 "Franche-Comte"
+>>>>>>> master
  STATE_18:0 "Champagne"
  STATE_19:0 "Aquitaine"
  STATE_20:0 "Rhone"
@@ -26,7 +30,11 @@
  STATE_25:0 "Limousin"
  STATE_26:0 "Auvergne"
  STATE_27:0 "Bourgogne"
+<<<<<<< HEAD
  STATE_28:0 "Alsace"
+=======
+ STATE_28:1 "Alsace-Lorraine"
+>>>>>>> master
  STATE_29:0 "Pas de Calais"
  STATE_30:0 "Loire"
  STATE_31:0 "Midi Pyrenees"
@@ -566,7 +574,11 @@
  STATE_565:0 "Bodaybo"
  STATE_566:0 "Irkutsk"
  STATE_567:0 "Bratsk"
+<<<<<<< HEAD
  STATE_568:0 "Yenisei Right Bank"
+=======
+ STATE_568:0 "Krasnoyarsk"
+>>>>>>> master
  STATE_569:0 "Kemerovo"
  STATE_570:0 "Novosibirsk"
  STATE_571:0 "Omsk"
@@ -584,7 +596,11 @@
  STATE_583:0 "Kustanay"
  STATE_584:0 "Ashkhabad"
  STATE_585:0 "Urgench"
+<<<<<<< HEAD
  STATE_586:0 "Bishkek"
+=======
+ STATE_586:0 "Alma-Ata"
+>>>>>>> master
  STATE_587:0 "Ust Urt"
  STATE_588:0 "Semipalatinsk"
  STATE_589:0 "Ayaguz"
@@ -762,3 +778,11 @@
  STATE_761:0 "Hulunbuir"
  STATE_762:0 "Krasnoyarsk"
  STATE_763:2 "Burmese Panhandle"
+ STATE_764:0 "Voivodeship Silesia"
+ STATE_765:0 "Aceh"
+ STATE_766:0 "Tapanuli"
+ STATE_767:0 "East Sumatra"
+ STATE_768:0 "Tano Batak"
+ STATE_769:0 "Northern Minangkabau"
+ STATE_770:0 "Minangkabau"
+

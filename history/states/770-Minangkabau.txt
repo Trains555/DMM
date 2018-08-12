@@ -1,0 +1,39 @@
+
+state={
+	id=770
+	name="STATE_770"
+
+	manpower=4280000
+	state_category=city
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+		victory_points = {
+			10382 2
+		}
+
+		victory_points = {
+			13223 1
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 4
+
+			10382 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		1460 7327 7368 10194 10354 10382 10389 12181 12415 13219 13220 13221 13223
+	}
+
+}
