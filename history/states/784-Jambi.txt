@@ -1,0 +1,30 @@
+
+state={
+	id=771
+	name="STATE_783"
+
+	manpower=2000000
+	state_category=town
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+		victory_points = {
+			1345 1 
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1332 1345 1373 1533 4364 12212 12415 13224 
+	}
+
+}

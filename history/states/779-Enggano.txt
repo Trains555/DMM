@@ -1,0 +1,29 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	manpower=2000
+	state_category= tiny_island
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+		buildings = {
+			infrastructure = 1
+
+			13231 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		13231
+	}
+
+}

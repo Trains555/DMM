@@ -1,0 +1,29 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	manpower=1800000
+	state_category=rural
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+		victory_points = {
+			12181 1 
+		}
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		10209 10225 12184 12343  
+	}
+
+}
