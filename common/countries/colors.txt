@@ -547,64 +547,59 @@ RKK = {
     color = rgb { 100 100 100 }
     color_ui = rgb { 100 100 100 }
 }
-
 GKK = {
-color = rgb { 100 100 100 }
-color_ui = rgb { 100 100 100 }
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
 }
 OSP = {
-color = rgb { 100 100 100 }
-color_ui = rgb { 100 100 100 }
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
 }
 DAG = {
-color = rgb { 0 0 128 }
-color_ui = rgb { 0 0 128 }
+    color = rgb { 0 0 128 }
+    color_ui = rgb { 0 0 128 }
 }
 CHE = {
-color = rgb { 0 64 0 }
-color_ui = rgb { 0 64 0 }
-}
-CHE = {
-color = rgb { 0 64 0 }
-color_ui = rgb { 0 64 0 }
-}
-CHE = {
-color = rgb { 0 64 0 }
-color_ui = rgb { 0 64 0 }
+    color = rgb { 0 64 0 }
+    color_ui = rgb { 0 64 0 }
 }
 CBR = {
-color = rgb { 128 6 0 }
-color_ui = rgb { 128 6 0 }
+    color = rgb { 128 6 0 }
+    color_ui = rgb { 128 6 0 }
 }
 OSN = {
-color = rgb { 75 75 77 }
-color_ui = rgb { 75 75 77 }
+    color = rgb { 75 75 77 }
+    color_ui = rgb { 75 75 77 }
 }
 OSB = {
-color = rgb { 75 75 77 }
-color_ui = rgb { 75 75 77 }
+    color = rgb { 75 75 77 }
+    color_ui = rgb { 75 75 77 }
 }
 OSL = {
-color = rgb { 100 100 100 }
-color_ui = rgb { 100 100 100 }
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
 }
 OSK = {
-color = rgb { 100 100 100 }
-color_ui = rgb { 100 100 100 }
+    color = rgb { 100 100 100 }
+    color_ui = rgb { 100 100 100 }
 }
 QUE = {
-color = rgb { 0 0 64 }
-color_ui = rgb { 0 0 64 }
+    color = rgb { 0 0 64 }
+    color_ui = rgb { 0 0 64 }
 }
 HAW = {
-color = rgb { 0 0 64 }
-color_ui = rgb { 0 0 64 }
-}
-HAW = {
-color = rgb { 185 185 0 }
-color_ui = rgb { 185 185 0 }
+    color = rgb { 185 185 0 }
+    color_ui = rgb { 185 185 0 }
 }
 RNC = {
-color = rgb { 123 188 253 }
-color_ui = rgb { 123 188 253 }
+    color = rgb { 123 188 253 }
+    color_ui = rgb { 123 188 253 }
+}
+SCO = {
+    color = rgb { 219 219 119 }
+    color_ui = rgb { 255 255 155}
+}
+WAL = {
+    color = rgb { 75 156 76 }
+    color_ui = rgb { 58 156 76 }
 }
