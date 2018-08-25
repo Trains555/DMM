@@ -1,0 +1,25 @@
+
+state={
+	id=791
+	name="STATE_791"
+
+	manpower=900000
+	state_category= town
+
+	history=
+	{
+		owner = INS
+		add_core_of = INS
+
+
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		1209
+	}
+
+}

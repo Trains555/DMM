@@ -1,25 +1,25 @@
 state={
 	id=764
 	name="STATE_764"
+
+        history={
+			owner = YUG
+            add_core_of = YUG
+
+			victory_points = {
+				362 10 
+			}
+
+			buildings = {
+				infrastructure = 6
+			}
+		}
+
+		provinces={
+			614 3614 6643 11787 
+		}
+			
 	manpower= 123456
-    
-    state_category = rural
-
-    history={
-		owner = YUG
-		victory_points = {
-			362 10 
-		}
-
-		buildings = {
-			infrastructure = 6
-		}
-
-        add_core_of = YUG
-    }
-
-	provinces={
-		614 3614 6643 11787 
-	}
-
+	buildings_max_level_factor=1.000
+        state_category = rural
 }
