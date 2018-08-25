@@ -1,0 +1,17 @@
+state={
+	id=827
+	name="STATE_827"
+
+	state_category=pastoral
+
+	history={
+		owner = INS
+		add_core_of = INS
+	}
+		
+	provinces={
+		13312 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

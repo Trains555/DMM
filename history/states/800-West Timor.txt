@@ -1,0 +1,31 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	manpower=1800000
+	state_category=town
+
+	history={
+		owner = INS
+		add_core_of = INS
+		
+		victory_points = {
+			1355 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			13254 = {
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1339 1355 4358 13254 
+	}
+}

@@ -4,8 +4,7 @@ state={
 	name="STATE_778"
 
 	manpower=60000
-	
-	state_category = small_island
+	state_category= small_island
 
 
 	history=
@@ -16,6 +15,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 2
+			anti_air_defense = 2
 
 			1428 = {
 				coastal_bunker = 2
@@ -33,12 +33,16 @@ state={
 			13230 = {
 				coastal_bunker = 2
 			}
+
+			13231 = {
+				coastal_bunker = 2
+			}
 		}
 
 	}
 
 	provinces={
-		1428 13228 13229 13230
+		1428 13228 13229 13230 13231
 	}
 
 }

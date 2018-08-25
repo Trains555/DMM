@@ -3,7 +3,6 @@ state={
 	id=770
 	name="STATE_770"
 
-	manpower=4280000
 	state_category=city
 
 	history=
@@ -20,10 +19,10 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 2
-			air_base = 4
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
 
 			10382 = {
 				naval_base = 1
@@ -33,7 +32,7 @@ state={
 	}
 
 	provinces={
-		1460 7327 7368 10194 10354 10382 10389 12181 12415 13219 13220 13221 13223
+		1460 7327 7368 10354 10382 13219 13220 13221 13223  
 	}
 
 }
