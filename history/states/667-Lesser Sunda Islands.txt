@@ -1,7 +1,0 @@
-
-state={
-	id=667
-	name="STATE_667" #Flores
-
-	manpower=1500000
-	state_category=rural
