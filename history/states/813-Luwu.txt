@@ -1,0 +1,17 @@
+state={
+	id=813
+	name="STATE_813"
+
+	state_category=rural
+
+	history={
+		owner = INS
+		add_core_of = INS
+	}
+		
+	provinces={
+		7336 10450 10464 13296 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

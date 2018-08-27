@@ -1,3 +1,0 @@
-spriteTypes = { 
-##Icon For: krupps3yearmilitaryexpansionplan \r\n SpriteType = { \r\n name = "GFX_krupps3yearmilitaryexpansionplan" \r\n texturefile = "gfx/interface/goals/GFX_krupps3yearmilitaryexpansionplan.tga" \r\n } 
- }

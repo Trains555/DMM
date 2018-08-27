@@ -1,0 +1,16 @@
+
+state={
+	id=667
+	name="STATE_667" #Johor
+
+	manpower=1500000
+	state_category = town
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+	}
+
+	provinces={
+		4367 4424 10313
+	}

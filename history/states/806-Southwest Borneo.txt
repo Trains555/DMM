@@ -1,0 +1,17 @@
+state={
+	id=806
+	name="STATE_806"
+
+	state_category=town
+
+	history={
+		owner = INS
+		add_core_of = INS
+	}
+		
+	provinces={
+		1416 10178 12225 12252 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
