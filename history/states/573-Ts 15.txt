@@ -1,12 +1,9 @@
 
 state={
 	id=573
-	name="STATE_573" # Zlatoust
-	manpower = 556677
-	
-	state_category = pastoral
+	name="STATE_573"
 	resources={
-		chromium=23 # was: 32
+		chromium=23.000
 	}
 
 	history={
@@ -16,9 +13,13 @@ state={
 
 		}
 		add_core_of = SOV
+
 	}
 
 	provinces={
-		237 278 361 3280 4758 7320 10136 10142 10329 11223 11307 12117 
+		237 278 361 1278 3280 4758 7320 10136 10142 10329 11223 11307 12117 12130 
 	}
+	manpower=556677
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

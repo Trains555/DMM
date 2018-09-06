@@ -230,7 +230,7 @@
  STATE_229:1 "Azerbaijan"
  STATE_230:0 "Armenia"
  STATE_231:0 "Georgia"
- STATE_232:0 "Grozny"
+ STATE_232:1 "Dagestan"
  STATE_233:0 "Caucasus Mountains"
  STATE_234:0 "Krasnodar"
  STATE_235:0 "Stavropol"
@@ -798,7 +798,7 @@
  STATE_797:0 "Sumbawa"
  STATE_798:0 "Flores"
  STATE_799:0 "Sumba"
- STATE_800:0 "West Timor" 
+ STATE_800:0 "West Timor"
  STATE_801:0 "Pontianak"
  STATE_802:0 "Kapuas Raya"
  STATE_803:0 "Landak-Sanggau"
@@ -829,4 +829,4 @@
  STATE_828:0 "Buru"
  STATE_829:0 "Seram"
  STATE_830:0 "Ambon"
-
+ STATE_831:0 "Finnmark"
