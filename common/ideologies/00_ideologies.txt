@@ -42,10 +42,6 @@ ideologies = {
 			can_puppet = yes
 		}
 		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-		}
-
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
@@ -59,6 +55,7 @@ ideologies = {
 			
 			corporate_rule = {
 			}
+			
 		}
 		
 		dynamic_faction_names = {
@@ -78,10 +75,6 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
-		}
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -136,10 +129,6 @@ ideologies = {
 			can_puppet = yes
 		}
 		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-		}
-
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
@@ -192,20 +181,7 @@ ideologies = {
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
+	
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
@@ -256,19 +232,7 @@ ideologies = {
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
+
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
@@ -304,19 +268,6 @@ ideologies = {
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
@@ -364,19 +315,6 @@ ideologies = {
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
@@ -422,14 +360,6 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
-		}
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-		}
-		
-		faction_modifiers = {
-			
 		}
 
 	}
