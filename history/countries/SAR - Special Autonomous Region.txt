@@ -19,19 +19,6 @@ set_technology = {
 	transport = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_dominion
-	}
-	else = {
-		puppet = INS
-	}
-}
-
 set_convoys = 25
 
 set_politics = {
@@ -82,9 +69,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mochtar Pakpahan"
+	name = "Ulil Abshar Abdalla"
 	desc = ""
-	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {

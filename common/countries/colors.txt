@@ -394,8 +394,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 140  21  0  }
-	color_ui = rgb { 160  41  20  }
+	color = rgb { 193  0  0  }
+	color_ui = rgb { 200  0  0  }
 }
 
 VIN = {
@@ -532,8 +532,8 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 SAR = {
-    color = rgb { 180 254 112 }
-    color_ui = rgb { 180 254 112 }
+    color = rgb { 255 196 196 }
+    color_ui = rgb { 255 200 210 }
 }
 
 NBR = {

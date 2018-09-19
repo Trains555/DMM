@@ -21,6 +21,19 @@ set_technology = {
 	transport = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SAR
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = INS
+	}
+}
+
 
 set_convoys = 25
 
@@ -43,7 +56,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = communismo
+	ruling_party = communism
 	elections_allowed = no
 }
 
