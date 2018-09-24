@@ -5,8 +5,8 @@ state={
 	state_category=rural
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = JAP
+		add_core_of = JAP
 	}
 		
 	provinces={

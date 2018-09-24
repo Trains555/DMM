@@ -9,7 +9,8 @@ state={
 	
 	history=
 	{
-		owner = INS
+		owner = SAR
+		add_core_of = SAR
 		add_core_of = INS
 		
 		buildings = {
