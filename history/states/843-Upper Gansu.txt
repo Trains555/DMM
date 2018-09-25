@@ -1,15 +1,15 @@
 state={
-	id=756
-	name="STATE_756"
+	id=843
+	name="STATE_843"
 	provinces={
-		1778 4783 5031 12750 7727 7803 8102 10770 10899
+		2028 7971 5076 12596 12820
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 	history={
-		owner = MEN
-		add_core_of = MEN
+		owner = WEA
+		add_core_of = WEA
 		buildings = {
 			infrastructure = 1
 

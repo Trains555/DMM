@@ -8,13 +8,12 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	history={
-		owner = RNC
-		add_core_of = CHI
-		add_core_of = PRC
-                add_core_of = RNC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 4
 		}
+		set_demilitarized_zone = yes
 		
 		1938.10.25 = {
 			controller = JAP
