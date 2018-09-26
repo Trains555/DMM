@@ -4,13 +4,10 @@ state={
 	name="STATE_721"
 	manpower = 455604
 	
-	state_category = rural
+	state_category = pastoral
 
 	history={
-		owner = JAP
-		add_core_of = JAP
-		
-		add_corw
+		owner = POR
 		buildings = {
 			infrastructure = 3
 			12190 ={

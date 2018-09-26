@@ -1,0 +1,1953 @@
+focus_tree = { 
+id = RNGROC_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = RRC
+} 
+}
+default = no 
+continuous_focus_position = { x = 50 y = 3000 }
+#Focus for A New Policy for China?
+focus = { 
+id = CHI_anewpolicyforchina
+icon = GFX_focus_chi_cooperation_with_the_nationalists
+x = 16
+y = 0
+cost = 1
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+bypass = { 
+has_country_flag = in_dire_straits
+ } 
+available = { 
+has_country_flag = in_dire_straits
+ } 
+
+ } 
+
+#Focus for No Future for a Chinese State!
+focus = { 
+id = CHI_nofutureforachinesestate
+icon = GFX_goal_generic_attack_allies
+x = 2
+y = 1
+cost = 2
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anewpolicyforchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+has_country_flag = liu_victory
+ } 
+completion_reward = { 
+#retire_country_leader = yes
+#create_country_leader = {
+#name = "Liu Zhongjing"
+#	desc = "POLITICS_LIU_ZHONGJING_DESC"
+#	picture = "gfx/leaders/RRC/Portrait_RNGROC_Liu_Zhongjing.dds"
+#	expire = "2025.1.1"
+#	ideology = nazism
+#	traits = {
+#		despised_collaborator
+#	}
+#}
+} 
+
+} 
+
+#Focus for Nothing Risked, Nothing Lost
+focus = { 
+id = CHI_nothingriskednothinglost
+icon = GFX_goal_generic_improve_relations
+x = 9
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anewpolicyforchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+has_country_flag = no_risk_no_loss
+ } 
+complete_tooltip = { 
+#gain national spirit 'demanding garrison'
+ } 
+
+ } 
+
+#Focus for Nothing Risked, Nothing Gained
+focus = { 
+id = CHI_nothingriskednothinggained
+icon = GFX_goal_generic_political_pressure
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes
+available = { 
+has_country_flag = no_risk_no_gain
+ }  
+prerequisite = { focus = CHI_anewpolicyforchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+bypass = { 
+has_country_flag = nothing_risked_nothing_gained
+ } 
+complete_tooltip = { 
+#gain spirit 'upset garrison'
+ } 
+
+ } 
+
+#Focus for Reform or Revolution!
+focus = { 
+id = CHI_reformorrevolution
+icon = GFX_focus_chi_united_front
+x = 24
+y = 1
+cost = 10
+available_if_capitulated = yes 
+available = { 
+has_country_flag = reform_or_revolution
+ } 
+prerequisite = { focus = CHI_anewpolicyforchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#kill wang, need democrat or some council to become leader
+ } 
+
+ } 
+
+#Focus for A Most Loyal Government
+focus = { 
+id = CHI_amostloyalgovernment
+icon = GFX_focus_jap_pacific_guardian
+x = 30
+y = 1
+cost = 10
+available_if_capitulated = yes 
+available = { 
+has_country_flag = koichis_government
+ } 
+prerequisite = { focus = CHI_anewpolicyforchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Foster Regionalism
+focus = { 
+id = CHI_fosterregionalism
+icon = GFX_goal_generic_propaganda
+x = 0
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_nofutureforachinesestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+always = yes
+ } 
+completion_reward = { 
+add_ideas = regionalism_fostered
+ } 
+
+ } 
+
+#Focus for Decentralized Industrial Plan
+focus = { 
+id = CHI_decentralizedindustrialplan
+icon = GFX_goal_generic_construct_civilian
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_nofutureforachinesestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }	 
+}
+ } 
+
+ } 
+
+#Focus for China has no official language!
+focus = { 
+id = CHI_chinahasnoofficiallanguage
+icon = GFX_focus_generic_military_academy
+x = 0
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_fosterregionalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#This will add the first foreign cores
+ } 
+
+ } 
+
+#Focus for Patriotic Local Militias
+focus = { 
+id = CHI_patrioticlocalmilitias
+icon = GFX_focus_generic_little_entente
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_decentralizedindustrialplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = patriotic_militias
+ } 
+
+ } 
+
+#Focus for Redraw the Province System!
+focus = { 
+id = CHI_redrawtheprovincesystem
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 0
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_chinahasnoofficiallanguage } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#This focus will add further cores for decentralization
+ } 
+
+ } 
+
+#Focus for Local Infrastructure Initiatives
+focus = { 
+id = CHI_localinfrastructureinitiatives
+icon = GFX_goal_generic_construct_infrastructure
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_patrioticlocalmilitias } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = infrastructure
+            level = 3
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = infrastructure
+            level = 3
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }	 
+}
+ } 
+
+ } 
+
+#Focus for Empower the Shenzhang
+focus = { 
+id = CHI_empowertheshenzhang
+icon = GFX_focus_generic_treaty
+x = 0
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_redrawtheprovincesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#Will also add more cores.
+ } 
+completion_reward = { 
+add_ideas = shengzhang_empowered
+ } 
+
+ } 
+
+#Focus for The Lianjie Plan
+focus = { 
+id = CHI_thelianjieplan
+icon = GFX_goal_generic_intelligence_exchange
+x = 4
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_localinfrastructureinitiatives } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }	 
+}
+random_owned_controlled_state = {
+	add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }	 
+}
+add_ideas = lianjie_plan
+ } 
+
+ } 
+
+#Focus for Smash Chinese Identity
+focus = { 
+id = CHI_smashchineseidentity
+icon = GFX_goal_generic_attack_allies
+x = 2
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_thelianjieplan } 
+prerequisite = { focus = CHI_empowertheshenzhang } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#will add the final set of cores
+ } 
+completion_reward = { 
+add_political_power = -100
+ } 
+
+ } 
+
+#Focus for Devolution
+focus = { 
+id = CHI_devolution
+icon = GFX_goal_anti_comintern_pact
+x = 2
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_smashchineseidentity } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#This will release ALL previously added cores throughout China. This will also demilitarize the Interior, but will launch a conflict with the partisans regardless of the further choices.
+ } 
+
+ } 
+
+#Focus for Self-Governance for Minorities
+focus = { 
+id = CHI_selfgovernanceforminorities
+icon = GFX_focus_generic_the_giant_wakes
+x = 0
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_devolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#This will make the puppets independent.
+ } 
+
+ } 
+
+#Focus for The ROC no longer!
+focus = { 
+id = CHI_therocnolonger
+icon = GFX_goal_generic_demand_territory
+x = 0
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_selfgovernanceforminorities } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change name to "Wu State" or something like that
+ } 
+
+ } 
+
+#Focus for A Most Peculiar Republic
+focus = { 
+id = CHI_amostpeculiarrepublic
+icon = GFX_focus_generic_china1
+x = 4
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_devolution } 
+mutually_exclusive = { focus = CHI_selfgovernanceforminorities } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = 0.1
+ } 
+
+ } 
+
+#Focus for Representation Without Democracy
+focus = { 
+id = CHI_representationwithoutdemocracy
+icon = GFX_focus_generic_military_mission
+x = 4
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_amostpeculiarrepublic } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = representation_without_democracy
+add_stability = 0.1
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Manchuria was never Chinese
+focus = { 
+id = CHI_manchuriawasneverchinese
+icon = GFX_goal_generic_propaganda
+x = 11
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_formallydeclareallegiancetojapan } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#remove cores
+
+#det flag 'demand 2 fulfilled'
+#if both set, remove 'demanding garrison'
+ } 
+completion_reward = { 
+add_stability = -0.10
+reverse_add_opinion_modifier= { 
+target = MAN
+modifier = fascism_leanings_good 
+}
+add_opinion_modifier = {
+       target = MAN
+       modifier = fascism_leanings_good 
+}
+ } 
+
+ } 
+
+#Focus for Formally declare Allegiance to Japan
+focus = { 
+id = CHI_formallydeclareallegiancetojapan
+icon = GFX_focus_generic_japanese_imperial_glory
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_nothingriskednothinglost } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+reverse_add_opinion_modifier= { 
+target = JAP
+modifier = fascism_leanings_good 
+}
+add_opinion_modifier = {
+       target = JAP
+       modifier = fascism_leanings_good 
+}
+add_stability = -0.1
+ } 
+
+ } 
+
+#Focus for Renounce claims on the outlying territories
+focus = { 
+id = CHI_renounceclaimsontheoutlyingterritories
+icon = GFX_goal_generic_political_pressure
+x = 7
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_formallydeclareallegiancetojapan } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#remove claims
+
+#set flag 'demand 1 fulfilled'
+ } 
+completion_reward = { 
+add_stability = -0.05
+ } 
+
+ } 
+
+#Focus for Reorganize the Republic
+focus = { 
+id = CHI_reorganizetherepublic
+icon = GFX_goal_generic_major_alliance
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_manchuriawasneverchinese } 
+prerequisite = { focus = CHI_renounceclaimsontheoutlyingterritories } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 100
+add_ideas = Reorganized_Republic
+ } 
+
+ } 
+
+#Focus for The Office of the Zhongguo Lingdaozhe
+focus = { 
+id = CHI_theofficeofthezhongguolingdaozhe
+icon = GFX_goal_generic_secret_weapon
+x = 9
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_reorganizetherepublic } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#wang should gain new trait
+ } 
+completion_reward = { 
+add_stability = 0.05
+add_war_support = 0.1
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for The Battle for Education
+focus = { 
+id = CHI_thebattleforeducation
+icon = GFX_focus_research2
+x = 7
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_theofficeofthezhongguolingdaozhe } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#will lessen malus from education
+ } 
+
+ } 
+
+#Focus for Teach Kanji pronunciation for Chinese
+focus = { 
+id = CHI_teachkanjipronunciationforchinese
+icon = GFX_focus_jap_pacific_guardian
+x = 6
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_thebattleforeducation } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#will remove malus
+ } 
+
+ } 
+
+#Focus for Teach University courses in Japanese only
+focus = { 
+id = CHI_teachuniversitycoursesinjapaneseonly
+icon = GFX_focus_chi_collaboration_with_the_japanese
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_thebattleforeducation } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#gain bonus to trade and reduce malus from elites
+ } 
+
+ } 
+
+#Focus for Open Provincial Universities
+focus = { 
+id = CHI_openprovincialuniversities
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 7
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_teachkanjipronunciationforchinese } 
+prerequisite = { focus = CHI_teachuniversitycoursesinjapaneseonly } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#lower partisan malus and remilitarize some areas
+ } 
+
+ } 
+
+#Focus for Expand the Men Behind The Sun
+focus = { 
+id = CHI_expandthemenbehindthesun
+icon = GFX_goal_generic_secret_weapon
+x = 7
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_openprovincialuniversities } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#also add idea for less research time, but less manpower and PP
+ } 
+completion_reward = { 
+add_stability = -0.1
+add_manpower = -32431
+add_ideas = men_behind_the_sun_chi
+ } 
+
+ } 
+
+#Focus for The Battle for Harmony
+focus = { 
+id = CHI_thebattleforharmony
+icon = GFX_focus_man_claim_the_mandate_of_heaven
+x = 11
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_theofficeofthezhongguolingdaozhe } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#lower malus from social fracturing, also after idea times out, grant idea 'society reformed'
+ } 
+completion_reward = { 
+add_timed_idea = { idea = battle_for_harmony days = 365 }
+ } 
+
+ } 
+
+#Focus for Shintoism is our State Religion
+focus = { 
+id = CHI_shintoismisourstatereligion
+icon = GFX_focus_generic_japanese_imperial_glory
+x = 10
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_thebattleforharmony } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = RRC_state_shintoism
+add_stability = -0.05
+ } 
+
+ } 
+
+#Focus for We Are All Asians Here!
+focus = { 
+id = CHI_weareallasianshere
+icon = GFX_focus_jap_manchurian_project
+x = 12
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_thebattleforharmony } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#lowers malus of social resistance
+
+#basically accepts japanese segregationism
+ } 
+completion_reward = { 
+add_stability = -0.05
+ } 
+
+ } 
+
+#Focus for Build the Nanjing Shrine
+focus = { 
+id = CHI_buildthenanjingshrine
+icon = GFX_focus_jap_spiritual_mobilization
+x = 10
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_shintoismisourstatereligion } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_war_support = 0.05
+add_stability = 0.05
+613 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 2
+            instant_build = yes
+        }	 
+}
+ } 
+
+ } 
+
+#Focus for Emancipation through Loyalty
+focus = { 
+id = CHI_emancipationthroughloyalty
+icon = GFX_goal_continuous_increase_nu
+x = 12
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_weareallasianshere } 
+complete_tooltip = { 
+#lower malus from social fracturing
+ } 
+completion_reward = { 
+add_ideas = emancipation_through_loyalty
+add_political_power = -50
+add_stability = -0.05
+ } 
+
+ } 
+
+#Focus for We Have The Mandate Of Heaven
+focus = { 
+id = CHI_wehavethemandateofheaven
+icon = GFX_goal_continuous_def_against_influence
+x = 11
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_emancipationthroughloyalty } 
+prerequisite = { focus = CHI_buildthenanjingshrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#remove social malus
+ } 
+completion_reward = { 
+add_stability = 0.075
+add_political_power = 75
+add_ideas = fuhrer_of_heaven
+add_timed_idea = { idea = stabilising_country days = 350 }
+ } 
+
+ } 
+
+#Focus for An Accord with the Ambassador
+focus = { 
+id = CHI_anaccordwiththeambassador
+icon = GFX_focus_jap_cast_the_die
+x = 18
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_nothingriskednothinggained } 
+mutually_exclusive = { focus = CHI_atelegramtotokyo } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#bypass via event
+ } 
+
+ } 
+
+#Focus for A Telegram to Tokyo
+focus = { 
+id = CHI_atelegramtotokyo
+icon = GFX_focus_jap_strike_south
+x = 14
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_nothingriskednothinggained } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#automatically complete via event
+ } 
+
+ } 
+
+#Focus for Request Control over RNGROC Kempeitai
+focus = { 
+id = CHI_requestcontroloverrngrockempeitai
+icon = GFX_goal_molotov_ribbentrop_pact
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_atelegramtotokyo } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#japan might demand territory, manpower or trade concessions, or even abandoning cores
+ } 
+
+ } 
+
+#Focus for Withdrawal of the Nanjing Garrison?
+focus = { 
+id = CHI_withdrawalofthenanjinggarrison
+icon = GFX_focus_generic_military_mission
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_atelegramtotokyo } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#japan might demand stuff.
+
+#in exchange, remove national spirit 'upset garrison'
+ } 
+
+ } 
+
+#Focus for Recognition of the RNA
+focus = { 
+id = CHI_recognitionoftherna
+icon = GFX_goal_generic_improve_relations
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_withdrawalofthenanjinggarrison } 
+prerequisite = { focus = CHI_requestcontroloverrngrockempeitai } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#gain research bonuses and equipment, aswell as some divisions
+ } 
+
+ } 
+
+#Focus for Combined Training Exercises
+focus = { 
+id = CHI_combinedtrainingexercises
+icon = GFX_focus_generic_license_production
+x = 13
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_recognitionoftherna } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#add inf. equipment too
+
+#also load an armored div via event
+ } 
+completion_reward = { 
+army_experience = 75
+ } 
+
+ } 
+
+#Focus for A New Disarmament Agreement
+focus = { 
+id = CHI_anewdisarmamentagreement
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 15
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_recognitionoftherna } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#deploy motorized div
+#relax malus
+ } 
+
+ } 
+
+#Focus for A New RNA for the ROC
+focus = { 
+id = CHI_anewrnafortheroc
+icon = GFX_goal_unknown
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anewdisarmamentagreement focus = CHI_combinedtrainingexercises } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Planning for the Interior Campaign
+focus = { 
+id = CHI_planningfortheinteriorcampaign
+icon = GFX_goal_generic_position_armies
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anewrnafortheroc } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#enables anti-partisan decisions
+ } 
+
+ } 
+
+#Focus for A new Era of Cooperation
+focus = { 
+id = CHI_aneweraofcooperation
+icon = GFX_focus_chi_collaboration_with_the_japanese
+x = 14
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_planningfortheinteriorcampaign } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#add idea to both jap and rngroc to improve construction speed, resource gain, planning speed and command power
+ } 
+
+ } 
+
+#Focus for A New Wang Regime
+focus = { 
+id = CHI_anewwangregime
+icon = GFX_focus_generic_support_the_left_right
+x = 9
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_wehavethemandateofheaven } 
+prerequisite = { focus = CHI_expandthemenbehindthesun } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#wang should gain new trait
+#enable anti partisan warfare
+ } 
+
+ } 
+
+#Focus for The Death of Chinese Ottomanism
+focus = { 
+id = CHI_thedeathofchineseottomanism
+icon = GFX_goal_generic_demand_territory
+x = 4
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_representationwithoutdemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change name to 'chinese federation'
+ } 
+
+ } 
+
+#Focus for Zaibatsu Deals
+focus = { 
+id = CHI_zaibatsudeals
+icon = GFX_goal_generic_positive_trade_relations
+x = 13
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_aneweraofcooperation } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#event about negotiation with japan forward backward
+ } 
+
+ } 
+
+#Focus for The Shandong Military Complex
+focus = { 
+id = CHI_theshandongmilitarycomplex
+icon = GFX_goal_generic_construct_mil_factory
+x = 15
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_aneweraofcooperation } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#maybe also add bonus for jap
+ } 
+completion_reward = { 
+597 = {
+      add_building_construction = {
+           type = arms_factory
+           level = 4
+           instant_build = yes
+      }
+}
+ } 
+
+ } 
+
+#Focus for (Almost) Equal Partners
+focus = { 
+id = CHI_almostequalpartners
+icon = GFX_goal_tripartite_pact
+x = 14
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_theshandongmilitarycomplex } 
+prerequisite = { focus = CHI_zaibatsudeals } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change autonomy to dominion
+#change name to Reorganized Nationalist Republic of China
+#lessen military malus
+ } 
+
+ } 
+
+#Focus for Divert Weapon Shipments
+focus = { 
+id = CHI_divertweaponshipments
+icon = GFX_goal_generic_small_arms
+x = 17
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_corruptionisourmosteffectiveweapon } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#Enables decisions to divert more specialized infantry weapons.
+ } 
+
+ } 
+
+#Focus for Corruption is our most effective Weapon!
+focus = { 
+id = CHI_corruptionisourmosteffectiveweapon
+icon = GFX_focus_generic_concessions
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anaccordwiththeambassador } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#decisions to bribe japanese army officers for civ. factories, gaining simple inf. equipment and research boni
+ } 
+
+ } 
+
+#Focus for 'Civilian' Instructors
+focus = { 
+id = CHI_civilianinstructors
+icon = GFX_focus_generic_military_mission
+x = 19
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_corruptionisourmosteffectiveweapon } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#lower army discipline malus
+ } 
+
+ } 
+
+#Focus for Secret meeting with Zaibatsu officials
+focus = { 
+id = CHI_secretmeetingwithzaibatsuofficials
+icon = GFX_focus_prc_infiltration
+x = 17
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_divertweaponshipments } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#event, increase zaibatsu malus in exchange for cheaper production and cheaper research aswell as onetime equipment boost
+ } 
+
+ } 
+
+#Focus for Discover 'lost' Japanese heavy equipment
+focus = { 
+id = CHI_discoverlostjapaneseheavyequipment
+icon = GFX_goal_continuous_armor_production
+x = 18
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_foundtheparoc } 
+prerequisite = { focus = CHI_secretmeetingwithzaibatsuofficials } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#deploy tank division and add artillery and some tanks to stockpile
+ } 
+
+ } 
+
+#Focus for Found the PAROC
+focus = { 
+id = CHI_foundtheparoc
+icon = GFX_goal_continuous_reduce_training_time
+x = 19
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_civilianinstructors } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#add militia template, load some of 'em
+ } 
+completion_reward = { 
+add_ideas = PAROC
+ } 
+
+ } 
+
+#Focus for Our Unbreakable Counter-Partisans
+focus = { 
+id = CHI_ourunbreakablecounterpartisans
+icon = GFX_focus_RAJ_lions_of_the_great_war
+x = 18
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_discoverlostjapaneseheavyequipment } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#start decisions about partisans
+ } 
+
+ } 
+
+#Focus for Guns light up the darkness...
+focus = { 
+id = CHI_gunslightupthedarkness
+icon = GFX_goal_generic_military_sphere
+x = 17
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_ourunbreakablecounterpartisans } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#also remove some inf eq.
+ } 
+completion_reward = { 
+add_manpower = -15500
+ } 
+
+ } 
+
+#Focus for ...mortars rip the ground.
+focus = { 
+id = CHI_mortarsriptheground
+icon = GFX_goal_generic_army_artillery2
+x = 17
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_gunslightupthedarkness } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#remove arty too
+ } 
+completion_reward = { 
+add_manpower = -9800
+ } 
+
+ } 
+
+#Focus for We set a trap...
+focus = { 
+id = CHI_wesetatrap
+icon = GFX_goal_generic_position_armies
+x = 19
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_ourunbreakablecounterpartisans } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#guangxi is demilitarized
+ } 
+
+ } 
+
+#Focus for ...they took the bait.
+focus = { 
+id = CHI_theytookthebait
+icon = GFX_goal_demand_sudetenland
+x = 19
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_wesetatrap } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#random chance of 80% to win, if won, remilitarize south china
+ } 
+
+ } 
+
+#Focus for Unaware of our presence they'll be marching...
+focus = { 
+id = CHI_unawareofourpresencetheyllbemarching
+icon = GFX_focus_CZE_german_puppet
+x = 18
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_mortarsriptheground } 
+prerequisite = { focus = CHI_theytookthebait } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower = -25780
+ } 
+
+ } 
+
+#Focus for ...straight to their doom!
+focus = { 
+id = CHI_straighttotheirdoom
+icon = GFX_goal_generic_secret_weapon
+x = 18
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_unawareofourpresencetheyllbemarching } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#all demilitarized states rise up and declare war
+ } 
+
+ } 
+
+#Focus for A United China under our flag!
+focus = { 
+id = CHI_aunitedchinaunderourflag
+icon = GFX_focus_generic_china1
+x = 18
+y = 12
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_straighttotheirdoom } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change name to "Reorganized National Republic of China"
+ } 
+completion_reward = { 
+add_political_power = 100
+add_stability = 0.1
+ } 
+
+ } 
+
+#Focus for A popular revolt!
+focus = { 
+id = CHI_apopularrevolt
+icon = GFX_goal_generic_radar
+x = 24
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_reformorrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#spawn some divs
+ } 
+completion_reward = { 
+add_manpower = 567940
+ } 
+
+ } 
+
+#Focus for Government of National Revival
+focus = { 
+id = CHI_governmentofnationalrevival
+icon = GFX_focus_prc_agrarian_socialism
+x = 24
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_apopularrevolt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Approach the Interior Partisans
+focus = { 
+id = CHI_approachtheinteriorpartisans
+icon = GFX_goal_support_democracy
+x = 23
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_governmentofnationalrevival } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#event to militarize Interior
+ } 
+
+ } 
+
+#Focus for Approach the External Fronts
+focus = { 
+id = CHI_approachtheexternalfronts
+icon = GFX_goal_generic_axis_build_infantry
+x = 25
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_governmentofnationalrevival } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#event chain China -- US if US stops japan, skip next one.
+ } 
+
+ } 
+
+#Focus for The Chongqing Conference
+focus = { 
+id = CHI_thechongqingconference
+icon = GFX_focus_chi_proclaim_rival_government
+x = 23
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_approachtheinteriorpartisans } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#event about reintegration, the more integrated, the more army experience and militia divs.
+ } 
+
+ } 
+
+#Focus for Plead with Tokyo
+focus = { 
+id = CHI_pleadwithtokyo
+icon = GFX_focus_generic_diplomatic_treaty
+x = 25
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_approachtheexternalfronts } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#last chance to salvage this...
+ } 
+
+ } 
+
+#Focus for Fortify the Borders
+focus = { 
+id = CHI_fortifytheborders
+icon = GFX_goal_generic_construct_military
+x = 24
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_pleadwithtokyo } 
+prerequisite = { focus = CHI_thechongqingconference } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#build bunkers on the northern frontier and in nanning region
+ } 
+
+ } 
+
+#Focus for A New Republic of China
+focus = { 
+id = CHI_anewrepublicofchina
+icon = GFX_focus_generic_china1
+x = 22
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_fortifytheborders } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A People's Government
+focus = { 
+id = CHI_apeoplesgovernment
+icon = GFX_focus_prc_maoism
+x = 26
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_fortifytheborders } 
+mutually_exclusive = { focus = CHI_anewrepublicofchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Democratic Centralism
+focus = { 
+id = CHI_democraticcentralism
+icon = GFX_goal_support_communism
+x = 26
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_apeoplesgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = democratic_centralism
+ } 
+
+ } 
+
+#Focus for Realize Sun Yat-Sen's dream
+focus = { 
+id = CHI_realizesunyatsensdream
+icon = GFX_goal_generic_national_unity
+x = 22
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_anewrepublicofchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#open side tree of Minzu, Minquan and Minsheng
+ } 
+
+ } 
+
+#Focus for Reintroduce Free Elections
+focus = { 
+id = CHI_reintroducefreeelections
+icon = GFX_focus_generic_military_academy
+x = 22
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_realizesunyatsensdream } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Found the PRC
+focus = { 
+id = CHI_foundtheprc
+icon = GFX_focus_prc_proclaim_the_peoples_republic
+x = 26
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_democraticcentralism } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change name to prc, lin liguo is leader
+ } 
+completion_reward = { 
+add_stability = 0.1
+add_war_support = 0.15
+ } 
+
+ } 
+
+#Focus for War of National Defense and Reunification
+focus = { 
+id = CHI_warofnationaldefenseandreunification
+icon = GFX_goal_generic_war_with_comintern
+x = 26
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_foundtheprc } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#declare war on japan
+ } 
+
+ } 
+
+#Focus for Kōichi's Iron Fist
+focus = { 
+id = CHI_kichisironfist
+icon = GFX_goal_continuous_suppression
+x = 30
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_amostloyalgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#after purge add idea 'most loyal government' giving stability and a lot of war support
+ } 
+completion_reward = { 
+add_timed_idea = { idea = koichis_purge days = 140 }
+ } 
+
+ } 
+
+#Focus for Integrate the RNA into the IJA
+focus = { 
+id = CHI_integratethernaintotheija
+icon = GFX_goal_anti_comintern_pact
+x = 30
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_kichisironfist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = abolished_rna
+ } 
+
+ } 
+
+#Focus for March to Chongqing
+focus = { 
+id = CHI_marchtochongqing
+icon = GFX_focus_generic_military_mission
+x = 29
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_integratethernaintotheija } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#enable anti-partisan decisions
+ } 
+
+ } 
+
+#Focus for Discredit Emperor Zhongshi
+focus = { 
+id = CHI_discreditemperorzhongshi
+icon = GFX_goal_generic_CAS
+x = 31
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_integratethernaintotheija } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#忠实 = loyal, zhongshi
+
+#this will probably replace zhongshi with a general as governor
+ } 
+
+ } 
+
+#Focus for Oradour Tactics
+focus = { 
+id = CHI_oradourtactics
+icon = GFX_goal_generic_secret_weapon
+x = 29
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_marchtochongqing } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#provoke chinese partisan uprising
+ } 
+
+ } 
+
+#Focus for Petition for Manchuria
+focus = { 
+id = CHI_petitionformanchuria
+icon = GFX_focus_jap_strike_south
+x = 31
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_discreditemperorzhongshi } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#china annexes manchuria
+ } 
+
+ } 
+
+#Focus for A unified Chinese Colonial Administration
+focus = { 
+id = CHI_aunifiedchinesecolonialadministration
+icon = GFX_focus_chi_collaboration_with_the_japanese
+x = 30
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_petitionformanchuria } 
+prerequisite = { focus = CHI_oradourtactics } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#change name to "Chūgoku Colonial Administration"
+ } 
+completion_reward = { 
+add_political_power = -200
+add_stability = -0.2
+ } 
+
+ } 
+
+#Focus for Japanization
+focus = { 
+id = CHI_japanization
+icon = GFX_focus_jap_manchurian_project
+x = 30
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_aunifiedchinesecolonialadministration } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#gain malus to stability, pp gain and research time
+ } 
+
+ } 
+
+#Focus for Build Shinto Shrines throughout China
+focus = { 
+id = CHI_buildshintoshrinesthroughoutchina
+icon = GFX_focus_jap_spiritual_mobilization
+x = 29
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_japanization } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#start construction decisions
+ } 
+
+ } 
+
+#Focus for Outlaw Chinese
+focus = { 
+id = CHI_outlawchinese
+icon = GFX_goal_generic_forceful_treaty
+x = 31
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_japanization } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#add massive research malus
+ } 
+
+ } 
+
+#Focus for Shinto as the sole religion
+focus = { 
+id = CHI_shintoasthesolereligion
+icon = GFX_focus_jap_pacific_guardian
+x = 29
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_buildshintoshrinesthroughoutchina } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#gain timed malus, then bonus
+ } 
+
+ } 
+
+#Focus for Only teach Japanese in schools
+focus = { 
+id = CHI_onlyteachjapaneseinschools
+icon = GFX_goal_generic_cavalry
+x = 31
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_outlawchinese } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#research malus decreases over time
+ } 
+
+ } 
+
+#Focus for Japanized Public Discourse
+focus = { 
+id = CHI_japanizedpublicdiscourse
+icon = GFX_focus_chi_collaboration_with_the_japanese
+x = 30
+y = 12
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_onlyteachjapaneseinschools } 
+prerequisite = { focus = CHI_shintoasthesolereligion } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#add better relations with japan
+#some events about zaibatsus taking over the economy maybe?
+ } 
+completion_reward = { 
+add_stability = 0.1
+ } 
+
+ } 
+
+#Focus for Enthrone Prince Fumihito as Emperor of China
+focus = { 
+id = CHI_enthroneprincefumihitoasemperorofchina
+icon = GFX_focus_jap_showa_restoration
+x = 30
+y = 13
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_japanizedpublicdiscourse } 
+ai_will_do = { 
+ factor = 1
+ } 
+complete_tooltip = { 
+#fumihito becomes emperor of china
+#name changes to "Chūgoku Teikoku"
+#becomes dominion of japan
+ } 
+
+ } 
+
+#End of focuses 
+ }

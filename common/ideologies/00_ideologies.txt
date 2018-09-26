@@ -3,7 +3,6 @@ ideologies = {
 	national_socialist = {
 	
 		types = {
-		
 			nazism = {
 			}
 		}
@@ -40,6 +39,7 @@ ideologies = {
 			
 			fascism_ideology = {
 		}
+		}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
@@ -72,6 +72,7 @@ ideologies = {
 		types = {
 			
 			nationalism_ideology = {
+		}
 		}
 		
 		dynamic_faction_names = {
@@ -106,6 +107,7 @@ ideologies = {
 			
 			autocratic = {
 		}
+		}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
@@ -138,6 +140,7 @@ ideologies = {
 		types = {
 			
 			reactionary_ideology = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -168,8 +171,7 @@ ideologies = {
 	
 	conservative = {
 	
-		types = {
-			
+		types = {		
 			conservatism = {
 			}
 		}

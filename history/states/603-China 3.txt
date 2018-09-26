@@ -3,16 +3,15 @@ state={
 	name="STATE_603"
 
 	history={
-		owner = RNC
-                add_core_of = RNC
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 2
 
 		}
+		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
