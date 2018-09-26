@@ -6,11 +6,8 @@ state={
 	}
 
 	history={
-		owner = RNC
-		add_core_of = YUN
-		add_core_of = CHI
-                add_core_of = RNC
-		add_core_of = PRC
+		owner = RRC
+		add_core_of = RRC
 		victory_points = {
 			1319 10 
 		}
@@ -20,6 +17,7 @@ state={
 			industrial_complex = 3
 
 		}
+		set_demilitarized_zone = yes
 		1938.10.25 = {
 			if = {
 				limit = {
