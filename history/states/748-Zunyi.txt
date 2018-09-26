@@ -5,14 +5,13 @@ state={
 		1010 4141 4325 4431 9939 10763 11972 
 	}
 	history={
-		owner = RNC
-		add_core_of = CHI
-		add_core_of = PRC
-                add_core_of = RNC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 
 		}
+		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				infrastructure = 4

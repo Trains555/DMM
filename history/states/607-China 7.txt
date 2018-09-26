@@ -9,10 +9,8 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = RNC
-		add_core_of = CHI
-		add_core_of = PRC
-                add_core_of = RNC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -20,7 +18,7 @@ state={
 		victory_points = {
 			9958 1 
 		}
-
+		set_demilitarized_zone = yes
 		1938.10.25 = {		
 			buildings = {
 				industrial_complex = 4

@@ -1,5 +1,23 @@
 #reload countrycolors
 
+CAC = {
+	color = rgb { 255 228 225 }
+	color_ui = rgb { 255 228 225 }
+}
+ANA = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+WEA = {
+	color = rgb { 65 105 225 }
+	color_ui = rgb { 65 105 225 }
+}
+RRC = {
+	color = rgb { 255 231 105 }
+	color_ui = rgb { 255 231 105 }
+} 
+#moved to top from bottom
+##start of le ebin default color list##
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -24,9 +42,10 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
+BEL = { 
+	color = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
+}
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
@@ -238,7 +257,7 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 115 45}
+	color = rgb { 80 115 45 }
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -394,8 +413,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 193  0  0  }
-	color_ui = rgb { 200  0  0  }
+	color = rgb { 128  158  118 }
+	color_ui = rgb { 128  158  118 }
 }
 
 VIN = {
@@ -531,25 +550,6 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-SAR = {
-    color = rgb { 255 196 196 }
-    color_ui = rgb { 255 200 210 }
-}
-
-NBR = {
-    color = rgb { 133 177 71 }
-    color_ui = rgb { 133 177 71 }
-}
-
-EEI = {
-    color = rgb { 84 40 85 }
-    color_ui = rgb { 84 40 85 }
-}
-
-BAL = {
-    color = rgb { 172 111 34 }
-    color_ui = rgb { 172 111 34 }
-}
 GKM = {
     color = rgb { 100 100 100 }
     color_ui = rgb { 100 100 100 }
@@ -609,16 +609,4 @@ QUE = {
 HAW = {
     color = rgb { 185 185 0 }
     color_ui = rgb { 185 185 0 }
-}
-RNC = {
-    color = rgb { 123 188 253 }
-    color_ui = rgb { 123 188 253 }
-}
-SCO = {
-    color = rgb { 219 219 119 }
-    color_ui = rgb { 255 255 155}
-}
-WAL = {
-    color = rgb { 75 156 76 }
-    color_ui = rgb { 58 156 76 }
 }
