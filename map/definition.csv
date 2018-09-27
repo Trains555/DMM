@@ -13330,3 +13330,15 @@
 13329;25;152;184;land;false;unknown;0
 13330;182;33;225;land;false;unknown;0
 13331;121;130;131;land;false;unknown;0
+13332;190;176;31;land;false;desert;6
+13333;3;159;161;land;false;desert;6
+13334;214;94;64;land;false;desert;6
+13335;121;205;62;land;false;desert;6
+13336;58;24;97;land;false;hills;6
+13337;245;96;140;land;true;urban;6
+13338;172;154;205;land;true;urban;6
+13339;251;243;245;land;true;urban;6
+13340;100;26;132;land;true;urban;6
+13341;157;150;0;land;true;plains;6
+13342;154;143;53;land;true;plains;6
+13343;98;253;86;land;true;plains;6

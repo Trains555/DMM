@@ -38,76 +38,76 @@ set_convoys = 40
 set_politics = {
 
 	parties = {
-		#national_socialist = {
-		#	popularity = 5
-		#}
+		national_socialist = {
+			popularity = 5
+		}
 
 		fascism = {
 			popularity = 85
 		}
 
-		#nationalist = {
-		#	popularity = 50
-		#}
+		nationalist = {
+			popularity = 50
+		}
 
-		#paternal_autocrat = {
-		#	popularity = 10
-		#}
+		paternal_autocrat = {
+			popularity = 10
+		}
 
-		#reactionary = {
-		#	popularity = 21
-		#}
+		reactionary = {
+			popularity = 21
+		}
 
-		#conservative = {
-		#	popularity = 4
-		#}
+		conservative = {
+			popularity = 4
+		}
 
-		#liberal = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#social_democrat = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#socialist = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#authoritarian_communism = {
-		#	popularity = 0
-		#	banned = yes #beaned
-		#}
-
-		#internationalism = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#national_bolshevik = {
-		#	popularity = 0
-		#	banned = yes #super beaned
-		#}
-
-		communism = {
+		liberal = {
 			popularity = 0
 			banned = yes
 		}
 
-		democratic = {
+		social_democrat = {
 			popularity = 0
 			banned = yes
 		}
 
-		neutrality = {
-			popularity = 15
+		socialist = {
+			popularity = 0
+			banned = yes
 		}
+
+		authoritarian_communism = {
+			popularity = 0
+			banned = yes #beaned
+		}
+
+		internationalism = {
+			popularity = 0
+			banned = yes
+		}
+
+		national_bolshevik = {
+			popularity = 0
+			banned = yes #super beaned
+		}
+
+		#communism = {
+		#	popularity = 0
+		#	banned = yes
+		#}
+
+		#democratic = {
+		#	popularity = 0
+		#	banned = yes
+		#}
+
+		#neutrality = {
+		#	popularity = 15
+		#}
 	}
 	
-	ruling_party = fascism
+	ruling_party = nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_WENYING_DESC"
 	picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Wenying.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = nationalism_ideology
 	traits = {
 		despised_collaborator
 	}
