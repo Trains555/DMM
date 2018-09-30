@@ -11,14 +11,11 @@ country_event = {
 		#date < 2004.3.04
 		date > 1936.2.12
 		date < 1936.3.04
-		
+		has_country_leader = {
+			name = "Wang Wenying"
+			ruling_only = yes
+		}
 	}
 	mean_time_to_happen = {
 		days = 1
 	}
-
-
-#has_country_leader = {
-			#name = "Jeb Bush"
-			#ruling_only = yes
-		#}
