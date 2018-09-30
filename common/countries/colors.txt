@@ -610,3 +610,7 @@ HAW = {
     color = rgb { 185 185 0 }
     color_ui = rgb { 185 185 0 }
 }
+XNZ = {
+	color = rgb { 255 72 48 }
+	color_ui = rgb { 255 72 48 }
+}
