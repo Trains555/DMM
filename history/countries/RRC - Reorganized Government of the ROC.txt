@@ -39,27 +39,28 @@ set_politics = {
 
 	parties = {
 		national_socialist = {
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 85
-		}
-
-		nationalist = {
-			popularity = 50
-		}
-
-		paternal_autocrat = {
 			popularity = 10
 		}
 
+		fascism = {
+			popularity = 15
+		}
+
+		nationalist = {
+			popularity = 0
+			banned = yes
+		}
+
+		paternal_autocrat = {
+			popularity = 30
+		}
+
 		reactionary = {
-			popularity = 21
+			popularity = 35
 		}
 
 		conservative = {
-			popularity = 4
+			popularity = 10
 		}
 
 		liberal = {
@@ -107,7 +108,7 @@ set_politics = {
 		#}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -118,7 +119,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_WENYING_DESC"
 	picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Wenying.dds"
 	expire = "1965.1.1"
-	ideology = nationalism_ideology
+	ideology = autocratic
 	traits = {
 		despised_collaborator
 	}
