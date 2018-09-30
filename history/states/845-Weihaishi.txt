@@ -2,8 +2,8 @@ state=
 {
 	id=845
 	name="STATE_845"
-	manpower = 385000
-	state_category = large_town
+	manpower = 465908
+	state_category = coastal_city_concession
 	
 	
 	history=
@@ -15,7 +15,7 @@ state=
 		}
 		buildings = {
 			infrastructure = 3
-			dockyard = 1
+			dockyard = 2
 			13338 = {
 				naval_base = 3
 				coastal_bunker = 2

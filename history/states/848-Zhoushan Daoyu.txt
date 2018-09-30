@@ -2,8 +2,8 @@ state=
 {
 	id=848
 	name="STATE_848"
-	manpower = 385000
-	state_category = town
+	manpower = 328348
+	state_category = small_island
 	
 	
 	history=

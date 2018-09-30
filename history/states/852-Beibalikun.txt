@@ -2,8 +2,8 @@ state=
 {
 	id=852
 	name="STATE_852"
-	manpower = 385000
-	state_category = pastoral
+	manpower = 55976
+	state_category = wasteland
 	
 	
 	history=

@@ -10,11 +10,12 @@ state={
 	history={
 		owner = RRC
 		add_core_of = RRC
+		add_claim_by = TIB
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
 
 		}
-		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1
