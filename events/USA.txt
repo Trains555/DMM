@@ -22,3 +22,4 @@ country_event = {
 			#name = "Jeb Bush"
 			#ruling_only = yes
 		#}
+}
