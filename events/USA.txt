@@ -1,4 +1,5 @@
 ﻿
+add_namespace = dmmusa
 country_event = {
 	id = dmmusa.1
 	title = dmmusa.1.t
