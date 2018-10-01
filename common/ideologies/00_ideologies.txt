@@ -87,7 +87,7 @@ ideologies = {
 			absolute_monarchist = {
 			}
 			
-			wahhabi_theocrat = {
+			salafi_theocrat = {
 			}
 			
 			catholic_theocrat = {
