@@ -104,10 +104,7 @@ ideologies = {
 			
 			falangist = {
 			}
-			
-			shinto_theocrat = {
-			}
-					
+				
 		}
 		
 		dynamic_faction_names = {
