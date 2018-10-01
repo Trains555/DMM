@@ -283,9 +283,6 @@ ideologies = {
 			
 			market_socialism = {
 			}
-			
-			council_communism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -319,13 +316,13 @@ ideologies = {
 		
 		types = {
 		
-			vanguard_socialism = {
+			vanguard_communism = {
 			}
 			
-			stalinist_socialism = {
+			stalinist_communism = {
 			}
 			
-			international_socialism = {
+			international_communism = {
 			}
 			
 			national_bolshevik = {
