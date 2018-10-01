@@ -53,9 +53,11 @@ ideologies = {
 			technocracy = {
 			}
 			
-			corporate_rule = {
+			corporate_monopoly = {
 			}
 			
+			corporate_republic = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -91,6 +93,9 @@ ideologies = {
 			}
 			
 			catholic_theocrat = {
+			}
+			
+			evangelical_theocrat = {
 			}
 			
 			jewish_theocrat = {
@@ -139,20 +144,15 @@ ideologies = {
 			national_conservatism = {
 			}
 			
-			fiscal_conservatism = {
+			traditional_conservatism = {
 			}
 			
-			constitutional_monarchist = {
+			new_conservatism = {
 			}
 			
-			islamic_conservatism = {
+			evangelical_religious_conservatism = {
 			}
 			
-			protestant_conservatusm = {
-			}
-			
-			catholic_conservatism = {
-			}
 		}
 		
 		dynamic_faction_names = {
