@@ -1663,6 +1663,31 @@
  XNZ_national_bolshevik:0 "National Revolutionary Xinan State"
  XNZ_national_bolshevik_ADJ:0 "the National Revolutionary Xinan State"
 
+ #Trains work!
+
+ USA_fascism:0 "United States Of America"
+ USA_fascism_DEF:0 "the United States Of America"
+ USA_reactionary:0 "United States Of America"
+ USA_reactionary_DEF:0 "the United States Of America"
+ USA_paternal_autocrat:0 "United States Of America"
+ USA_paternal_autocrat_DEF:0 "the United States Of America"
+ USA_conservative:0 "United States Of America"
+ USA_conservative_DEF:0 "the United States Of America
+ USA_authoritarian_communism:0 "United Socalist States Of America"
+ USA_authoritarian_communism_DEF:0 "the United Socalist States Of America"
+ USA_national_socialist:0 "American State"
+ USA_national_socialist_DEF:0 "the American State"
+ USA_liberal:0 "United States Of America"
+ USA_liberal_DEF:0 "the United States Of America"
+ USA_socialist:0 "United States Of America"
+ USA_socialist_DEF:0 "the United States Of America
+ USA_social_democrat:0 "United States Of America"
+ USA_social_democrat_DEF:0 "the United States Of America"
+ USA_internationalism:0 "United States Of America"
+ USA_internationalism:0 "the United States Of America"
+ USA_national_bolshevik:0 "American People's Republic"
+ USA_national_bolshevik_DEF:0 "the American People's Republic"
+
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"
