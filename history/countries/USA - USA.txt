@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA_1936"
 
@@ -171,24 +171,67 @@ set_convoys = 400
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		national_socialist = {
+			popularity = 1
 		}
 
 		fascism = {
+			popularity = 4
+		}
+
+		nationalist = {
+			popularity = 14
+		}
+
+		paternal_autocrat = {
 			popularity = 0
 		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
+
+		reactionary = {
+			popularity = 3
 		}
+
+		conservative = {
+			popularity = 26
+		}
+
+		liberal = {
+			popularity = 24
+			
+		}
+
+		social_democrat = {
+			popularity = 11
+			
+		}
+
+		socialist = {
+			popularity = 7
+			
+		}
+
+		authoritarian_communism = {
+			popularity = 1
+			
+		}
+
+		internationalism = {
+			popularity = 9
+			
+		}
+
+		national_bolshevik = {
+			popularity = 0
+		 
+		}
+
+		
 	}
 	
-	ruling_party = democratic
-	last_election = "1932.11.8"
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 add_ideas = {
