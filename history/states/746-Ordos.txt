@@ -9,12 +9,14 @@ state={
 	
 	history=
 	{
-		owner = PRC
-		add_core_of = PRC
+		owner = RRC
+		add_core_of = RRC
+		add_core_of = MEN
 		
 		buildings = {
 			infrastructure = 2
 		}
+		set_demilitarized_zone = yes
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

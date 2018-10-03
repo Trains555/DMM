@@ -10,11 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = RNC
-		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
-                add_core_of = RNC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -36,6 +33,6 @@ state= {
 
 	}
 	provinces={
-		1023 1469 1597 1625 4028 4077 4085 4134 4152 4628 4656 7095 7128 7168 7210 7650 10039 10121 10404 10431 10459 12407 12436 
+		1023 1469 1597 1625 4028 4077 4085 4134 4152 4628 4656 7095 7128 7168 7210 7650 10039 10121 10404 10431 10459 12436 12378
 	}
 }

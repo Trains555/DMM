@@ -135,6 +135,13 @@
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+13340;13339;sea;8396;-1;-1;-1;-1;;Pudong-Chongming
+7014;13339;sea;8369;-1;-1;-1;-1;;Shanghai-Chongming
+11928;13339;sea;8396;-1;-1;-1;-1;;Nantong-Chongming
+9974;13341;sea;2804;-1;-1;-1;-1;;Zhejiang-Zhoushan
+4196;13342;sea;5322;-1;-1;-1;-1;;Fuzhou-Matsu
+10011;4056;sea;7932;-1;-1;-1;-1;;Busan-Tsushima
+4576;12446;sea;4465;-1;-1;-1;-1;;Hokkaido-Kitakarafuto
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -180,4 +187,4 @@
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
--1;-1;;-1;-1;-1;-1;-1;-1
+-1;-1;;-1;-1;-1;-1;-1;-1;

@@ -5,8 +5,12 @@ state={
 	state_category=town
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = NBR
+		add_core_of = NBR
+
+		victory_points = {
+			10240 1 
+		}
 	}
 		
 	provinces={
