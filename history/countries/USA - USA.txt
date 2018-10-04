@@ -143,7 +143,7 @@ create_country_leader = {
 	name = "John Ellis Bush Sr."
 	picture = "JebUSA.dds"
 	expire = "1947.1.1"
-	ideology = conservative
+	ideology = new_conservatism 
 	traits = {
 	
 	}
