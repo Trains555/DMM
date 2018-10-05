@@ -158,11 +158,59 @@ ai_will_do = {
  } 
 available = { 
 always = yes
- } 
+ }
+#complete_tooltip = { rrc_liu_foster_regionalism_tt }
 completion_reward = { 
-add_ideas = regionalism_fostered
+custom_effect_tooltip = rrc_liu_foster_regionalism_tt
+hidden_effect = {
+	add_ideas = regionalism_fostered
+    603 = { add_core_of = GUI }
+    748 = { add_core_of = GUI }
+    598 = { add_core_of = JIA }
+    606 = { add_core_of = ANH }
+    840 = { add_core_of = HUB }
+    841 = { add_core_of = HUB }
+    607 = { add_core_of = HEN }
+    873 = { add_core_of = SIC }
+    605 = { add_core_of = SIC }
+    874 = { add_core_of = SIC }
+    744 = { add_core_of = SHA }
+    622 = { add_core_of = SHA }
+    615 = { add_core_of = SHX }
+    283 = { add_core_of = GSU }
+    616 = { add_core_of = GSU }
+    854 = { add_core_of = GSU }
+    597 = { add_core_of = SND }
+    890 = { add_core_of = SND }
+    743 = { add_core_of = SND }
+    614 = { add_core_of = HEB }
+    608 = { add_core_of = HEB }
+    if = {
+    limit = { 755 = { is_owned_by = RRC } }
+    755 = { add_core_of = GSU }
+    }
+    if = {
+    limit = { 843 = { is_owned_by = RRC } }
+    843 = { add_core_of = GSU }
+    }
+    if = {
+    limit = { 609 = { is_owned_by = RRC } }
+    609 = { add_core_of = HEB }
+    }
+    if = {
+    limit = { 610 = { is_owned_by = RRC } }
+    610 = { add_core_of = REH }
+    }
+    if = {
+    limit = { 844 = { is_owned_by = RRC } }
+    844 = { add_core_of = SND }
+    }
+    if = {
+    limit = { 845 = { is_owned_by = RRC } }
+    845 = { add_core_of = SND }
+    }
+ }
  } 
-
  } 
 
 #Focus for Decentralized Industrial Plan
@@ -235,9 +283,98 @@ available_if_capitulated = yes
 prerequisite = { focus = CHI_fosterregionalism } 
 ai_will_do = { 
  factor = 1
- } 
-complete_tooltip = { 
-#This will add the first foreign cores
+ }
+ completion_reward = {
+ 	custom_effect_tooltip = rrc_liu_language_autonomy_tt
+ 	hidden_effect = {
+    593 = { add_core_of = YUE }
+    729 = { add_core_of = YUE }
+    592 = { add_core_of = YUE }
+    728 = { add_core_of = YUE }
+    891 = { add_core_of = HAK }
+    838 = { add_core_of = GAN }
+    600 = { add_core_of = GAN }
+    837 = { add_core_of = GAN }
+    895 = { add_core_of = GAN }
+    595 = { add_core_of = FUJ }
+    if = {
+    limit = { 326 = { is_owned_by = RRC } }
+    326 = { add_core_of = YUE }
+    }
+    if = {
+    limit = { 850 = { is_owned_by = RRC } }
+    850 = { add_core_of = FUJ }
+    }
+    if = {
+    limit = { 849 = { is_owned_by = RRC } }
+    849 = { add_core_of = FUJ }
+    }
+    if = {
+    limit = { 851 = { is_owned_by = RRC } }
+    851 = { add_core_of = FUJ }
+    }
+    if = {
+    limit = { 848 = { is_owned_by = RRC } }
+    848 = { add_core_of = WUZ }
+    }
+    if = {
+    limit = { 847 = { is_owned_by = RRC } }
+    847 = { add_core_of = WUZ }
+    }
+    if = {
+    limit = { 846 = { is_owned_by = RRC } }
+    846 = { add_core_of = WUZ }
+    }
+    596 = { add_core_of = WUZ }
+    749 = { add_core_of = WUZ }
+    613 = { add_core_of = WUZ }
+    836 = { add_core_of = WUZ }
+    746 = { add_core_of = IMO }
+    if = {
+    limit = { 621 = { is_owned_by = RRC } }
+    621 = { add_core_of = IMO }
+    }
+    if = {
+    limit = { 756 = { is_owned_by = RRC } }
+    756 = { add_core_of = IMO }
+    }
+    if = {
+    limit = { 611 = { is_owned_by = RRC } }
+    611 = { add_core_of = IMO }
+    }
+    if = {
+    limit = { 612 = { is_owned_by = RRC } }
+    612 = { add_core_of = IMO }
+    }
+    if = {
+    limit = { 761 = { is_owned_by = RRC } }
+    761 = { add_core_of = IMO }
+    }
+    if = {
+    limit = { 875 = { is_owned_by = RRC } }
+    875 = { add_core_of = ELU }
+    }
+    if = {
+    limit = { 876 = { is_owned_by = RRC } }
+    876 = { add_core_of = ELU }
+    }
+    if = {
+    limit = { 564 = { is_owned_by = RRC } }
+    564 = { add_core_of = ELU }
+    }
+    if = {
+    limit = { 877 = { is_owned_by = RRC } }
+    877 = { add_core_of = ELU }
+    }
+    if = {
+    limit = { 566 = { is_owned_by = RRC } }
+    566 = { add_core_of = ELU }
+    }
+    if = {
+    limit = { 897 = { is_owned_by = RRC } }
+    897 = { add_core_of = CXZ }
+    }
+   }
  } 
 
  } 
@@ -274,6 +411,57 @@ ai_will_do = {
  } 
 complete_tooltip = { 
 #This focus will add further cores for decentralization
+ }
+ completion_reward = {
+ 	custom_effect_tooltip = rrc_liu_minority_autonomy_tt
+ 	hidden_effect = {
+    881 = { add_core_of = MIA }
+    882 = { add_core_of = MIA }
+    883 = { add_core_of = MIA }
+    887 = { add_core_of = MIA }
+    599 = { add_core_of = ZHU }
+    594 = { add_core_of = ZHU }
+    if = {
+    limit = { 880 = { is_owned_by = RRC } }
+    880 = { add_core_of = ZHU }
+    }
+    if = {
+    limit = { 591 = { is_owned_by = RRC } }
+    591 = { add_core_of = LIZ }
+    }
+    if = {
+    limit = { 871 = { is_owned_by = RRC } }
+    871 = { add_core_of = YIZ }
+    }
+    751 = { add_core_of = YIZ }
+    884 = { add_core_of = YIZ }
+    if = {
+    limit = { 747 = { is_owned_by = RRC } }
+    747 = { add_core_of = BAI }
+    }
+    if = {
+    limit = { 870 = { is_owned_by = RRC } }
+    870 = { add_core_of = NTI }
+    }
+    878 = { add_core_of = NTI }
+    if = {
+    limit = { 869 = { is_owned_by = RRC } }
+    869 = { add_core_of = DAI }
+    }
+    if = {
+    limit = { 879 = { is_owned_by = RRC } }
+    879 = { add_core_of = LAH }
+    }
+    888 = { add_core_of = SHE }
+    885 = { add_core_of = TUJ }
+    886 = { add_core_of = TUJ }
+    889 = { add_core_of = DNG }
+    752 = { add_core_of = BTI }
+    896 = { add_core_of = BTI }
+    604 = { add_core_of = BTI }
+    753 = { add_core_of = BTI }
+    754 = { add_core_of = BTI }
+   }
  } 
 
  } 

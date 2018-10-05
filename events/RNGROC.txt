@@ -71,8 +71,8 @@ country_event = {
 	trigger = {
 		tag = RRC
 		#date > 2005.1.10
-		date > 1936.1.20
-		date < 1936.2.16
+		date > 2004.1.20
+		date < 2004.2.16
 		has_country_leader = {
 			name = "Wang Wenying"
 			ruling_only = yes
@@ -92,7 +92,7 @@ country_event = {
 			name = "Power Vacuum"
 			desc = "POLITICS_POWER_VACUUM_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_Power_Vacuum.dds"
-			expire = "1965.1.1"
+			expire = "2065.1.1"
 			ideology = autocratic
 			traits = {
 				#need appropriate trait costing pp and shit
@@ -149,7 +149,7 @@ country_event = {
 			name = "Liu Zhongjing"
 			desc = "POLITICS_LIU_ZHONGJING_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_Liu_Zhongjing.dds"
-			expire = "1965.1.1"
+			expire = "2065.1.1"
 			ideology = reactionary_ideology
 			traits = {
 				#need to implement fitting trait
@@ -181,7 +181,7 @@ country_event = {
 			name = "Wang Jiebing"
 			desc = "POLITICS_WANG_JIEBING_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Jiebing.dds"
-			expire = "1965.1.1"
+			expire = "2065.1.1"
 			ideology = autocratic
 			traits = {
 				#need appropriate trait
@@ -213,7 +213,7 @@ country_event = {
 			name = "Kōichi Isobe"
 			desc = "POLITICS_KOICHI_ISOBE_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
-			expire = "1965.1.1"
+			expire = "2065.1.1"
 			ideology = fascism_ideology
 			traits = {
 				#need appropriate trait
@@ -239,7 +239,7 @@ country_event = {
 			name = "National Council of Revolution"
 			desc = "POLITICS_NCRROC_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_NCRROC.dds"
-			expire = "1965.1.1"
+			expire = "2065.1.1"
 			ideology = social_democracy
 			traits = {
 				#need appropriate trait
@@ -356,6 +356,7 @@ country_event = {
 			598 = { add_core_of = PREV }
 			836 = { add_core_of = PREV }
 			743 = { add_core_of = PREV }
+			890 = { add_core_of = PREV }
 			transfer_state = 608
 			transfer_state = 614
 			transfer_state = 597
@@ -366,6 +367,7 @@ country_event = {
 			transfer_state = 598
 			transfer_state = 836
 			transfer_state = 743
+			transfer_state = 890
 		}
 		RRC = {
 			country_event = {
@@ -420,6 +422,18 @@ country_event = {
 			751 = { add_core_of = PREV }
 			752 = { add_core_of = PREV }
 			746 = { add_core_of = PREV }
+			882 = { add_core_of = PREV }
+			887 = { add_core_of = PREV }
+			881 = { add_core_of = PREV }
+			884 = { add_core_of = PREV }
+			883 = { add_core_of = PREV }
+			892 = { add_core_of = PREV }
+			893 = { add_core_of = PREV }
+			894 = { add_core_of = PREV }
+			885 = { add_core_of = PREV }
+			886 = { add_core_of = PREV }
+			878 = { add_core_of = PREV }
+			889 = { add_core_of = PREV }
 			transfer_state = 873
 			transfer_state = 874
 			transfer_state = 600
@@ -442,6 +456,18 @@ country_event = {
 			transfer_state = 751
 			transfer_state = 752
 			transfer_state = 746
+			transfer_state = 882
+			transfer_state = 887
+			transfer_state = 881
+			transfer_state = 884
+			transfer_state = 883
+			transfer_state = 892
+			transfer_state = 893
+			transfer_state = 894
+			transfer_state = 885
+			transfer_state = 886
+			transfer_state = 878
+			transfer_state = 889
 		}
 		600 = { set_demilitarized_zone = no }
 		620 = { set_demilitarized_zone = no }
@@ -469,6 +495,18 @@ country_event = {
 		751 = { set_demilitarized_zone = no }
 		752 = { set_demilitarized_zone = no }
 		746 = { set_demilitarized_zone = no }
+		882 = { set_demilitarized_zone = no }
+		887 = { set_demilitarized_zone = no }
+		881 = { set_demilitarized_zone = no }
+		884 = { set_demilitarized_zone = no }
+		883 = { set_demilitarized_zone = no }
+		892 = { set_demilitarized_zone = no }
+		893 = { set_demilitarized_zone = no }
+		894 = { set_demilitarized_zone = no }
+		885 = { set_demilitarized_zone = no }
+		886 = { set_demilitarized_zone = no }
+		878 = { set_demilitarized_zone = no }
+		889 = { set_demilitarized_zone = no }
 		set_province_name = {
 			id = 1089
 			name = "Nantsū"

@@ -2,7 +2,7 @@ state={
 	id=872
 	name="STATE_872"
 	provinces={
-		1383 1522 10413 10776 12262 
+		1383 1522 10776 12262 
 	}
 	history = {
 		owner = XNZ
@@ -12,6 +12,6 @@ state={
 			industrial_complex = 1
 		}
 	}
-	manpower=2451333
+	manpower=1895357
 	state_category = rural
-}
+} #Hani Territory

@@ -2,9 +2,9 @@ state={
 	id=747
 	name="STATE_747"
 	provinces={
-		5009 7965 7976 12898 
+		7976 12898 5009
 	}
-	manpower=1000000
+	manpower=5837333
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={

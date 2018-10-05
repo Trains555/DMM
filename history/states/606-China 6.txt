@@ -17,17 +17,6 @@ state={
 			7222 1 
 		}
 		set_demilitarized_zone = yes
-		1938.10.25 = {
-			controller = JAP
-			buildings = {
-				industrial_complex = 3
-				infrastructure = 6
-				air_base = 1
-				arms_factory = 1
-
-			}
-
-		}
 
 	}
 
