@@ -14,34 +14,26 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		national_socialist = {
+		fascist = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
+		corporatist = {
 			popularity = 0
 			banned = yes
 		}
-
-		nationalist = {
-			popularity = 65
-		}
-
-		paternal_autocrat = {
-			popularity = 15
-		}
-
+		
 		reactionary = {
-			popularity = 20
-		}
-
-		conservative = {
-			popularity = 0
+			popularity = 100
 			banned = yes
 		}
+		
+		conservative = { 
+			popularity = 0
+		}
 
-		liberal = {
+		liberal = { 
 			popularity = 0
 			banned = yes
 		}
@@ -50,33 +42,17 @@ set_politics = {
 			popularity = 0
 			banned = yes
 		}
-
+		
 		socialist = {
 			popularity = 0
 			banned = yes
 		}
-
-		communism = {
+		
+		communist = { 
 			popularity = 0
-			banned = yes #beaned
 		}
-
-		national_bolshevik = {
-			popularity = 0
-			banned = yes #super beaned
-		}
-
-		#democratic = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#neutrality = {
-		#	popularity = 15
-		#}
 	}
-	
-	ruling_party = nationalist
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -87,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_Li_Jiating_DESC"		#corrupt boi
 	picture = "gfx/leaders/XNZ/Portrait_XNZ_Li_Jiating.dds"
 	expire = "1965.1.1"
-	ideology = nationalism_ideology
+	ideology = nationalist
 	traits = {
 	}
 }

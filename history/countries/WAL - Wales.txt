@@ -11,28 +11,47 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		fascist = { 
 			popularity = 0
+			banned = yes
 		}
 
-		fascism = {
+		corporatist = {
 			popularity = 0
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 0
+		reactionary = {
+			popularity = 50
+			banned = yes
 		}
 		
-		neutrality = { 
-			popularity = 100
+		conservative = { 
+			popularity = 50
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
 		}
 	}
-	
-	ruling_party = neutrality
-	last_election = "1933.3.5"
+	ruling_party = conservatism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-set_convoys = 5
-
+	

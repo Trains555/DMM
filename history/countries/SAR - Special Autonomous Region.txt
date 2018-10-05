@@ -24,71 +24,63 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10
+		fascist = { 
+			popularity = 15
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 10
+		corporatist = {
+			popularity = 11
+			banned = yes
 		}
 		
-		communism = {
+		reactionary = {
+			popularity = 25
+			banned = yes
+		}
+		
+		conservative = { 
 			popularity = 30
 		}
-		neutrality = {
-			popularity = 50
+
+		liberal = { 
+			popularity = 12
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
 		}
 	}
 
-	ruling_party = neutrality
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Amien Rais"
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_amien_rais.dds"
 	expire = "1953.3.1"
-	ideology = moderatism 
+	ideology = sunni_islamic_religious_conservatism 
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Ulil Abshar Abdalla"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Suharto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
 
 set_cosmetic_tag = SAR_pui_puppet
 

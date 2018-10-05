@@ -39,89 +39,61 @@ set_convoys = 25
 
 set_politics = {
 
+	set_politics = {
+
 	parties = {
-		democratic = { 
-			popularity = 10
+		fascist = { 
+			popularity = 2
+			banned = yes
 		}
 
-		fascism = {
+		corporatist = {
 			popularity = 10
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 60
+		reactionary = {
+			popularity = 2
+			banned = yes
 		}
-		neutrality = {
+		
+		conservative = { 
+			popularity = 8
+		}
+
+		liberal = { 
+			popularity = 10
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 14
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 34
+			banned = yes
+		}
+		
+		communist = { 
 			popularity = 20
 		}
 	}
-
-	ruling_party = communism
+	ruling_party = socialist
 	elections_allowed = no
 }
+
 
 create_country_leader = {
 	name = "Mochtar Pakpahan"
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = market_socialism
 	traits = {
 		
 	}
 }
 
 set_cosmetic_tag = INS_with_sar_ADJ
-
-1939.1.1 = {
-	add_political_power = 1198
-
-	oob = "INS_1939" #straight copy of INS 1936
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-

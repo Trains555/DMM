@@ -147,37 +147,57 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10
+		fascist = { 
+			popularity = 29
 			banned = yes
 		}
 
-		fascism = {
-			popularity = 29
-		}
-		
-		communism = {
+		corporatist = {
 			popularity = 0
 			banned = yes
 		}
 		
-		neutrality = { 
+		reactionary = {
 			popularity = 70
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 8
+		}
+
+		liberal = { 
+			popularity = 2
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
 		}
 	}
-	
-	ruling_party = neutrality
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+	
 
 create_country_leader = {
 	name = "Ma Jiyuan"
 	desc = "POLITICS_MA_JIYUAN_DESC"
 	picture = "gfx/leaders/WEA/Portrait_WEA_Ma_Jiyuan.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = nationalist
 	traits = {
 	}
 }
@@ -193,7 +213,7 @@ create_country_leader = {
 			popularity = 0
 		}
 		
-		communism = {
+		communist = {
 			popularity = 0
 			#banned = no #default is no
 		}

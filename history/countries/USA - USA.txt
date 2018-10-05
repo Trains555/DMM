@@ -67,76 +67,49 @@ set_convoys = 400
 set_politics = {
 
 	parties = {
-		national_socialist = {
+		fascist = { 
 			popularity = 0
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 1
+		corporatist = {
+			popularity = 0
+			banned = yes
 		}
-
-		nationalist = {
-			popularity = 14
 		
-		}
-
-		paternal_autocrat = {
-			popularity = 0
-		}
-
 		reactionary = {
-			popularity = 3
+			popularity = 17
+			banned = yes
 		}
-
-		conservative = {
+		
+		conservative = { 
 			popularity = 31
 		}
 
-		liberal = {
+		liberal = { 
 			popularity = 29
-			
+			banned = yes
 		}
 
 		social_democrat = {
 			popularity = 7
-			
+			banned = yes
 		}
-
+		
 		socialist = {
 			popularity = 5
-			
+			banned = yes
 		}
-
-		authoritarian_communism = {
-			popularity = 1
-			
+		
+		communist = { 
+			popularity = 10
 		}
-
-		internationalism = {
-			popularity = 9
-			
-		}
-
-		national_bolshevik = {
-			popularity = 0
-			
-	    }
-
 	}
-	
 	ruling_party = conservative
-	last_election = "1932.11.8"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
-
-add_ideas = {
-	
-}
-
-
-
-
 
 
 create_country_leader = {
@@ -145,7 +118,6 @@ create_country_leader = {
 	expire = "1947.1.1"
 	ideology = new_conservatism 
 	traits = {
-	
 	}
 }
 

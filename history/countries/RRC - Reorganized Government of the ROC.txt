@@ -36,35 +36,30 @@ add_ideas = {
 set_convoys = 40
 
 set_politics = {
+	set_politics = {
 
 	parties = {
-		national_socialist = {
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 15
-		}
-
-		nationalist = {
-			popularity = 0
+		fascist = { 
+			popularity = 25
 			banned = yes
 		}
 
-		paternal_autocrat = {
-			popularity = 30
-		}
-
-		reactionary = {
-			popularity = 35
-		}
-
-		conservative = {
-			popularity = 10
-		}
-
-		liberal = {
+		corporatist = {
 			popularity = 0
+			banned = yes
+		}
+		
+		reactionary = {
+			popularity = 65
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 10
 			banned = yes
 		}
 
@@ -72,46 +67,22 @@ set_politics = {
 			popularity = 0
 			banned = yes
 		}
-
+		
 		socialist = {
 			popularity = 0
 			banned = yes
 		}
-
-		authoritarian_communism = {
+		
+		communist = { 
 			popularity = 0
-			banned = yes #beaned
 		}
-
-		internationalism = {
-			popularity = 0
-			banned = yes
-		}
-
-		national_bolshevik = {
-			popularity = 0
-			banned = yes #super beaned
-		}
-
-		#communism = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#democratic = {
-		#	popularity = 0
-		#	banned = yes
-		#}
-
-		#neutrality = {
-		#	popularity = 15
-		#}
 	}
-	
-	ruling_party = paternal_autocrat
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
 }
 
 create_country_leader = {
@@ -119,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_WENYING_DESC"
 	picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Wenying.dds"
 	expire = "1965.1.1"
-	ideology = autocratic
+	ideology = military_junta		# pls correct or add correct sub ideology
 	traits = {
 		despised_collaborator
 	}

@@ -64,16 +64,47 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-        democratic = { popularity = 1 }
-        communism = { popularity = 97 }
-        fascism = { popularity = 1 }
-        neutrality = { popularity = 1 }
+		fascist = { 
+			popularity = 0
+			banned = yes
+		}
 
+		corporatist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		reactionary = {
+			popularity = 0
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 0
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 100
+		}
 	}
-	
-	ruling_party = communism
+	ruling_party = communist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+	

@@ -1,4 +1,4 @@
-capital = 608 #Beijing
+﻿capital = 608 #Beijing
 
 set_stability = 0.35
 set_war_support = 1
@@ -146,27 +146,48 @@ set_convoys = 25
 
 set_politics = {
 
+	set_politics = {
+
 	parties = {
-		democratic = { 
+		fascist = { 
+			popularity = 100
+			banned = yes
+		}
+
+		corporatist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		reactionary = {
+			popularity = 0
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 0
+		}
+
+		liberal = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
+		social_democrat = {
 			popularity = 0
 			banned = yes
 		}
 		
-		neutrality = { 
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
 			popularity = 0
 		}
 	}
-	
-	ruling_party = fascism
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -177,7 +198,7 @@ create_country_leader = {
 	desc = "POLITICS_KOICHI_ISOBE_DESC"
 	picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = hakko_ichiu
 	traits = {
 	}
 }
@@ -185,29 +206,48 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		fascist = { 
+			popularity = 100
+			banned = yes
+		}
+
+		corporatist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		reactionary = {
+			popularity = 0
+			banned = yes
+		}
+		
+		conservative = { 
 			popularity = 0
 		}
 
-		fascism = {
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
 			popularity = 0
 		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
 	}
-		
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_field_marshal = {

@@ -24,59 +24,48 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 13
+		fascist = { 
+			popularity = 12
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 75
+		corporatist = {
+			popularity = 10
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 2
+		reactionary = {
+			popularity = 53
+			banned = yes
 		}
-		neutrality = {
-			popularity = 10
+		
+		conservative = { 
+			popularity = 25
+		}
+
+		liberal = { 
+			popularity = 3
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 5
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 2
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
 		}
 	}
-
-	ruling_party = fascism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Mochtar Pakpahan"
-	desc = ""
-	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -84,18 +73,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_east_indonesia_mudaffar_sjah_ii.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = absolute_monarchist
 	traits = {
 		
 	}

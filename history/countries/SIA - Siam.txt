@@ -71,73 +71,57 @@ set_convoys = 15
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 13
+		fascist = { 
+			popularity = 35
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 56
-		}
-		
-		communism = {
+		corporatist = {
 			popularity = 6
-			#banned = no #default is no
+			banned = yes
 		}
 		
-		neutrality = {
-			popularity = 25
+		reactionary = {
+			popularity = 10
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 28
+		}
+
+		liberal = { 
+			popularity = 12
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 7
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 2
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
 		}
 	}
-	
-	ruling_party = fascism
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+	
 create_country_leader = {
 	name = "Prem Tinsulanonda"
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_thailand_prem_tinsul.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_conservatism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Plaek Phibunsongkhram"
-		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
 	}
 }

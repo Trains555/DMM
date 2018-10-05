@@ -24,59 +24,48 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 3
+		fascist = { 
+			popularity = 60
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 80
+		corporatist = {
+			popularity = 0
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 0
+		reactionary = {
+			popularity = 23
+			banned = yes
 		}
-		neutrality = {
-			popularity = 17
+		
+		conservative = { 
+			popularity = 10
+		}
+
+		liberal = { 
+			popularity = 2
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 5
 		}
 	}
-
-	ruling_party = fascism
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Mochtar Pakpahan"
-	desc = ""
-	picture = "GFX_portrait_dmm_indonesia_mochtar_pakpahan"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -84,27 +73,15 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_bali_arya_wedakana.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+	ideology = balinese_nationalist
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
 
 1939.1.1 = {
 	add_political_power = 1198
-
-	oob = "INS_1939" #straight copy of INS 1936
 
 	#generic focuses
 	complete_national_focus = army_effort

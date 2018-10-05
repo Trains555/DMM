@@ -23,59 +23,51 @@ set_convoys = 25
 
 set_politics = {
 
+set_politics = {
+
 	parties = {
-		democratic = { 
-			popularity = 5
+		fascist = { 
+			popularity = 75
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 85
+		corporatist = {
+			popularity = 2
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 5
+		reactionary = {
+			popularity = 10
+			banned = yes
 		}
-		neutrality = {
+		
+		conservative = { 
+			popularity = 3
+		}
+
+		liberal = { 
+			popularity = 3
+			banned = yes
+		}
+
+		social_democrat = {
 			popularity = 5
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 2
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 2
 		}
 	}
-	ruling_party = fascism
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Amien Rais"
-	desc = ""
-	picture = "GFX_portrait_dmm_indonesia_amien_rais"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Mochtar Pakpahan"
-	desc = ""
-	picture = "GFX_portrait_dmm_indonesia_mochtar_pakpahan"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -83,72 +75,8 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_north_borneo_hideaki_kase.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+	ideology = hakko_ichiu
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
-
-1939.1.1 = {
-	add_political_power = 1198
-
-	oob = "INS_1939" #straight copy of INS 1936
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-

@@ -89,36 +89,57 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 50
+		fascist = { 
+			popularity = 10
+			banned = yes
 		}
 
-		fascism = {
-			popularity = 10
+		corporatist = {
+			popularity = 0
+			banned = yes
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no 
+		reactionary = {
+			popularity = 10
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 25
 		}
 
-		neutrality = {
-			popularity = 40
+		liberal = { 
+			popularity = 15
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 20
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 20
 		}
 	}
-	
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+	
 
 create_country_leader = {
 	name = "Rebiya Kadeer"
 	desc = "POLITICS_RABIYA_KADEER_DESC"
 	picture = "gfx/leaders/SIK/Portrait_SIK_Rebiya_Kadeer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservative
 	traits = {
 		#
 	}
@@ -133,31 +154,4 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes
-			}
-
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
 }
