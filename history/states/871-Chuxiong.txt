@@ -2,7 +2,7 @@ state={
 	id=871
 	name="STATE_871" #Yi people live here
 	provinces={
-		4559 
+		4559 8023 7965
 	}
 	history = {
 		owner = XNZ
@@ -12,6 +12,6 @@ state={
 			industrial_complex = 1
 		}
 	}
-	manpower=320000
+	manpower=2619179
 	state_category = town
 }

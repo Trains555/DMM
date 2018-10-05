@@ -1,17 +1,18 @@
 state={
-	id=872
-	name="STATE_872"
+	id=889
+	name="STATE_889"
 	provinces={
-		1383 1522 10776 12262 
+		 4313 7397 12797
 	}
 	history = {
-		owner = XNZ
-		add_core_of = XNZ
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		set_demilitarized_zone = yes
 	}
-	manpower=1895357
+	manpower=1297785
 	state_category = rural
-} #Hani Territory
+}
