@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = ENG
+		owner = SAU
 		victory_points = {
 			7960 1 
 		}
