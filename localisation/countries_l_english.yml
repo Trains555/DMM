@@ -1698,6 +1698,7 @@
  ZHU_fascist:0 "Zhuang Autonomous Territory"
  MIA_fascist:0 "Miao Autonomous Territory"
  SHX_fascist:0 "Shanxi Provincial Government"
+ HUI_fascist:0 "Hui Autonomous Territory"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
