@@ -2581,6 +2581,6 @@
  libtard_purge:0 "Libtard Purge"
  libtard_purge_desc:0 "With his ascension to the position of Supreme Leader of the United States, Ben Shapiro and his Movement for a Conservative America have initiated a massive wave of purges of supposed 'Libtards' throughout America, targeting approximately 75% of the population. \n \n §H\"Are you, or have you ever been a member, or associate, of the Democratic Party of the United States?"\"
  ###End of Joke Local###
- rrc_liu_foster_regionalism_tt:0 "§HThis will create £victory_points cores for local provincial governments mainly in Northern China.\n\nIt will also add an idea giving a £decrease_texticon malus to §RConscription§! and §RConstruction Speed§!, but a £increase_texticon bonus to §GDefence on Core Territory§! and §GPartisan Effects on Invaders§!.§!"
+ rrc_liu_foster_regionalism_tt:0 "§HThis will add an idea giving a £decrease_texticon malus to §RConscription§! and §RConstruction Speed§!, but a £increase_texticon bonus to §GDefence on Core Territory§! and §GPartisan Effects on Invaders§!.§!"
  rrc_liu_language_autonomy_tt:0 "§HThis will create £victory_points cores for states that aren't primarily Mandarin-speaking areas of China under your control.\nThese will be located mostly in Southeastern China.§!"
  rrc_liu_minority_autonomy_tt:0 "§HThis will create £victory_points cores for states that have a substantial population of non-Han peoples in the areas of China under your control.\nThese will be located mostly in the North- and Southwest of China.§!"
