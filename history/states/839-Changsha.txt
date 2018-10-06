@@ -14,16 +14,6 @@ state={
 			arms_factory = 1
 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-				infrastructure = 6
-				air_base = 1
-				arms_factory = 1
-
-			}
-
-		}
 		victory_points = {
 			7097 5 
 		}
@@ -31,7 +21,7 @@ state={
 	}
 
 	provinces={
-		9982 12350 1448 13143 7097 1640 9999 13140
+		13143 7097 1640 9999 13140
 	}
 	manpower=11019284
 	buildings_max_level_factor=1.000
