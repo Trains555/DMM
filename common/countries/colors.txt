@@ -746,3 +746,7 @@ CXZ = {
 	color = rgb { 102 205 170 }
 	color_ui = rgb { 102 205 170 }
 }
+HUI = {
+	color = rgb { 65 105 225 }
+	color_ui = rgb { 65 105 225 }
+}
