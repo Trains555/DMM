@@ -164,51 +164,51 @@ completion_reward = {
 custom_effect_tooltip = rrc_liu_foster_regionalism_tt
 hidden_effect = {
 	add_ideas = regionalism_fostered
-    603 = { add_core_of = GUI }
-    748 = { add_core_of = GUI }
-    598 = { add_core_of = JIA }
-    606 = { add_core_of = ANH }
-    840 = { add_core_of = HUB }
-    841 = { add_core_of = HUB }
-    607 = { add_core_of = HEN }
-    873 = { add_core_of = SIC }
-    605 = { add_core_of = SIC }
-    874 = { add_core_of = SIC }
-    744 = { add_core_of = SHA }
-    622 = { add_core_of = SHA }
-    615 = { add_core_of = SHX }
-    283 = { add_core_of = GSU }
-    616 = { add_core_of = GSU }
-    854 = { add_core_of = GSU }
-    597 = { add_core_of = SND }
-    890 = { add_core_of = SND }
-    743 = { add_core_of = SND }
-    614 = { add_core_of = HEB }
-    608 = { add_core_of = HEB }
-    if = {
-    limit = { 755 = { is_owned_by = RRC } }
-    755 = { add_core_of = GSU }
-    }
-    if = {
-    limit = { 843 = { is_owned_by = RRC } }
-    843 = { add_core_of = GSU }
-    }
-    if = {
-    limit = { 609 = { is_owned_by = RRC } }
-    609 = { add_core_of = HEB }
-    }
-    if = {
-    limit = { 610 = { is_owned_by = RRC } }
-    610 = { add_core_of = REH }
-    }
-    if = {
-    limit = { 844 = { is_owned_by = RRC } }
-    844 = { add_core_of = SND }
-    }
-    if = {
-    limit = { 845 = { is_owned_by = RRC } }
-    845 = { add_core_of = SND }
-    }
+#    603 = { add_core_of = GUI }
+#    748 = { add_core_of = GUI }
+#    598 = { add_core_of = JIA }
+#    606 = { add_core_of = ANH }
+#    840 = { add_core_of = HUB }
+#    841 = { add_core_of = HUB }
+#    607 = { add_core_of = HEN }
+#    873 = { add_core_of = SIC }
+#    605 = { add_core_of = SIC }
+#    874 = { add_core_of = SIC }
+#    744 = { add_core_of = SHA }
+#    622 = { add_core_of = SHA }
+#    615 = { add_core_of = SHX }
+#    283 = { add_core_of = GSU }
+#    616 = { add_core_of = GSU }
+#    854 = { add_core_of = GSU }
+#    597 = { add_core_of = SND }
+#    890 = { add_core_of = SND }
+#    743 = { add_core_of = SND }
+#    614 = { add_core_of = HEB }
+#    608 = { add_core_of = HEB }
+#    if = {
+#    limit = { 755 = { is_owned_by = RRC } }
+#    755 = { add_core_of = GSU }
+#    }
+#    if = {
+#    limit = { 843 = { is_owned_by = RRC } }
+#    843 = { add_core_of = GSU }
+#    }
+#    if = {
+#    limit = { 609 = { is_owned_by = RRC } }
+#    609 = { add_core_of = HEB }
+#    }
+#    if = {
+#    limit = { 610 = { is_owned_by = RRC } }
+#    610 = { add_core_of = REH }
+#    }
+#    if = {
+#    limit = { 844 = { is_owned_by = RRC } }
+#    844 = { add_core_of = SND }
+#    }
+#    if = {
+#    limit = { 845 = { is_owned_by = RRC } }
+#    845 = { add_core_of = SND }
+#    }
  }
  } 
  } 
@@ -300,6 +300,26 @@ ai_will_do = {
     if = {
     limit = { 326 = { is_owned_by = RRC } }
     326 = { add_core_of = YUE }
+    }
+    if = {
+    limit = { 892 = { is_owned_by = RRC } }
+    892 = { add_core_of = XIA }
+    }
+    if = {
+    limit = { 894 = { is_owned_by = RRC } }
+    894 = { add_core_of = XIA }
+    }
+    if = {
+    limit = { 839 = { is_owned_by = RRC } }
+    839 = { add_core_of = XIA }
+    }
+    if = {
+    limit = { 893 = { is_owned_by = RRC } }
+    893 = { add_core_of = XIA }
+    }
+    if = {
+    limit = { 602 = { is_owned_by = RRC } }
+    602 = { add_core_of = XIA }
     }
     if = {
     limit = { 850 = { is_owned_by = RRC } }
@@ -452,15 +472,71 @@ complete_tooltip = {
     limit = { 879 = { is_owned_by = RRC } }
     879 = { add_core_of = LAH }
     }
+    if = {
+    limit = { 748 = { is_owned_by = RRC } }
+    748 = { add_core_of = TUJ }
+    }
+    if = {
+    limit = { 603 = { is_owned_by = RRC } }
+    603 = { add_core_of = MIA }
+    }
     888 = { add_core_of = SHE }
     885 = { add_core_of = TUJ }
     886 = { add_core_of = TUJ }
     889 = { add_core_of = DNG }
     752 = { add_core_of = BTI }
-    896 = { add_core_of = BTI }
-    604 = { add_core_of = BTI }
+    #896 = { add_core_of = BTI }
+    #604 = { add_core_of = BTI }
     753 = { add_core_of = BTI }
-    754 = { add_core_of = BTI }
+    #754 = { add_core_of = BTI }
+    if = {
+    limit = { 601 = { is_owned_by = RRC } }
+    601 = { add_core_of = BTI }
+    }
+    if = {
+    limit = { 757 = { is_owned_by = RRC } }
+    757 = { add_core_of = BTI }
+    }
+    if = {
+    limit = { 322 = { is_owned_by = RRC } }
+    322 = { add_core_of = BTI }
+    }
+    if = {
+    limit = { 758 = { is_owned_by = RRC } }
+    758 = { add_core_of = BTI }
+    }
+    if = {
+    limit = { 604 = { is_owned_by = RRC } }
+    604 = { add_core_of = BTI }
+    }
+    if = {
+    limit = { 754 = { is_owned_by = RRC } }
+    754 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 616 = { is_owned_by = RRC } }
+    616 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 283 = { is_owned_by = RRC } }
+    283 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 854 = { is_owned_by = RRC } }
+    854 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 843 = { is_owned_by = RRC } }
+    843 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 755 = { is_owned_by = RRC } }
+    755 = { add_core_of = HUI }
+    }
+    if = {
+    limit = { 896 = { is_owned_by = RRC } }
+    896 = { add_core_of = HUI }
+    }
    }
  } 
 
